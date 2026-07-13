@@ -1,0 +1,113 @@
+ICD.10,eng,Category
+J41,simple and mucopurulent chronic bronchitis,lung
+J41.0,simple chronic bronchitis,lung
+J41.1,mucopurulent chronic bronchitis,lung
+J41.8,mixed simple and mucopurulent chronic bronchitis,lung
+J42,unspecified chronic bronchitis,lung
+J43,emphysema,lung
+J43.0,unilateral pulmonary emphysema [macleod's syndrome],lung
+J43.1,panlobular emphysema,lung
+J43.2,centrilobular emphysema,lung
+J43.8,other emphysema,lung
+J43.9,"emphysema, unspecified",lung
+J44,other chronic obstructive pulmonary disease,lung
+J44.0,chronic obstructive pulmonary disease with (acute) lower respiratory infection,lung
+J44.1,chronic obstructive pulmonary disease with (acute) exacerbation,lung
+J44.9,"chronic obstructive pulmonary disease, unspecified",lung
+J47,bronchiectasis,lung
+J47.0,bronchiectasis with acute lower respiratory infection,lung
+J47.1,bronchiectasis with (acute) exacerbation,lung
+J47.9,"bronchiectasis, uncomplicated",lung
+J60,coalworker's pneumoconiosis,lung
+J61,pneumoconiosis due to asbestos and other mineral fibers,lung
+J62,pneumoconiosis due to dust containing silica,lung
+J62.0,pneumoconiosis due to talc dust,lung
+J62.8,pneumoconiosis due to other dust containing silica,lung
+J63,pneumoconiosis due to other inorganic dusts,lung
+J63.0,aluminosis (of lung),lung
+J63.1,bauxite fibrosis (of lung),lung
+J63.2,berylliosis,lung
+J63.3,graphite fibrosis (of lung),lung
+J63.4,siderosis,lung
+J63.5,stannosis,lung
+J63.6,pneumoconiosis due to other specified inorganic dusts,lung
+J64,unspecified pneumoconiosis,lung
+J65,pneumoconiosis associated with tuberculosis,lung
+J67,hypersensitivity pneumonitis due to organic dust,lung
+J67.0,farmer's lung,lung
+J67.1,bagassosis,lung
+J67.2,bird fancier's lung,lung
+J67.3,suberosis,lung
+J67.4,maltworker's lung,lung
+J67.5,mushroom-worker's lung,lung
+J67.6,maple-bark-stripper's lung,lung
+J67.7,air conditioner and humidifier lung,lung
+J67.8,hypersensitivity pneumonitis due to other organic dusts,lung
+J67.9,hypersensitivity pneumonitis due to unspecified organic dust,lung
+J70,respiratory conditions due to other external agents,lung
+J70.0,acute pulmonary manifestations due to radiation,lung
+J70.1,chronic and other pulmonary manifestations due to radiation,lung
+J70.2,acute drug-induced interstitial lung disorders,lung
+J70.3,chronic drug-induced interstitial lung disorders,lung
+J70.4,"drug-induced interstitial lung disorders, unspecified",lung
+J70.5,respiratory conditions due to smoke inhalation,lung
+J70.8,respiratory conditions due to other specified external agents,lung
+J70.9,respiratory conditions due to unspecified external agent,lung
+J84,other interstitial pulmonary diseases,lung
+J84.0,alveolar and parieto-alveolar conditions,lung
+J84.01,alveolar proteinosis,lung
+J84.02,pulmonary alveolar microlithiasis,lung
+J84.03,idiopathic pulmonary hemosiderosis,lung
+J84.09,other alveolar and parieto-alveolar conditions,lung
+J84.1,other interstitial pulmonary diseases with fibrosis,lung
+J84.10,"pulmonary fibrosis, unspecified",lung
+J84.11,idiopathic interstitial pneumonia,lung
+J84.111,"idiopathic interstitial pneumonia, not otherwise specified",lung
+J84.112,idiopathic pulmonary fibrosis,lung
+J84.113,idiopathic non-specific interstitial pneumonitis,lung
+J84.114,acute interstitial pneumonitis,lung
+J84.115,respiratory bronchiolitis interstitial lung disease,lung
+J84.116,cryptogenic organizing pneumonia,lung
+J84.117,desquamative interstitial pneumonia,lung
+J84.17,other interstitial pulmonary diseases with fibrosis in diseases classified elsewhere,lung
+J84.170,interstitial lung disease with progressive fibrotic phenotype in diseases classified elsewhere,lung
+J84.178,other interstitial pulmonary diseases with fibrosis in diseases classified elsewhere,lung
+J84.2,lymphoid interstitial pneumonia,lung
+J84.8,other specified interstitial pulmonary diseases,lung
+J84.81,lymphangioleiomyomatosis,lung
+J84.82,adult pulmonary langerhans cell histiocytosis,lung
+J84.83,surfactant mutations of the lung,lung
+J84.84,other interstitial lung diseases of childhood,lung
+J84.841,neuroendocrine cell hyperplasia of infancy,lung
+J84.842,pulmonary interstitial glycogenosis,lung
+J84.843,alveolar capillary dysplasia with vein misalignment,lung
+J84.848,other interstitial lung diseases of childhood,lung
+J84.89,other specified interstitial pulmonary diseases,lung
+J84.9,"interstitial pulmonary disease, unspecified",lung
+J98.2,interstitial emphysema,lung
+J45,asthma,asthma
+J45.2,mild intermittent asthma,asthma
+J45.20,"mild intermittent asthma, uncomplicated",asthma
+J45.21,mild intermittent asthma with (acute) exacerbation,asthma
+J45.22,mild intermittent asthma with status asthmaticus,asthma
+J45.3,mild persistent asthma,asthma
+J45.30,"mild persistent asthma, uncomplicated",asthma
+J45.31,mild persistent asthma with (acute) exacerbation,asthma
+J45.32,mild persistent asthma with status asthmaticus,asthma
+J45.4,moderate persistent asthma,asthma
+J45.40,"moderate persistent asthma, uncomplicated",asthma
+J45.41,moderate persistent asthma with (acute) exacerbation,asthma
+J45.42,moderate persistent asthma with status asthmaticus,asthma
+J45.5,severe persistent asthma,asthma
+J45.50,"severe persistent asthma, uncomplicated",asthma
+J45.51,severe persistent asthma with (acute) exacerbation,asthma
+J45.52,severe persistent asthma with status asthmaticus,asthma
+J45.9,other and unspecified asthma,asthma
+J45.90,unspecified asthma,asthma
+J45.901,unspecified asthma with (acute) exacerbation,asthma
+J45.902,unspecified asthma with status asthmaticus,asthma
+J45.909,"unspecified asthma, uncomplicated",asthma
+J45.99,other asthma,asthma
+J45.990,exercise induced bronchospasm,asthma
+J45.991,cough variant asthma,asthma
+J45.998,other asthma,asthma

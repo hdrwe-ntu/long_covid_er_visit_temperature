@@ -1,0 +1,780 @@
+ICD.10,eng,Category
+F10,alcohol related disorders,mental_health_disorders
+F10.1,alcohol abuse,mental_health_disorders
+F10.10,"alcohol abuse, uncomplicated",mental_health_disorders
+F10.11,"alcohol abuse, in remission",mental_health_disorders
+F10.12,alcohol abuse with intoxication,mental_health_disorders
+F10.120,"alcohol abuse with intoxication, uncomplicated",mental_health_disorders
+F10.121,alcohol abuse with intoxication delirium,mental_health_disorders
+F10.129,"alcohol abuse with intoxication, unspecified",mental_health_disorders
+F10.13,"alcohol abuse, with withdrawal",mental_health_disorders
+F10.130,"alcohol abuse with withdrawal, uncomplicated",mental_health_disorders
+F10.131,alcohol abuse with withdrawal delirium,mental_health_disorders
+F10.132,alcohol abuse with withdrawal with perceptual disturbance,mental_health_disorders
+F10.139,"alcohol abuse with withdrawal, unspecified",mental_health_disorders
+F10.14,alcohol abuse with alcohol-induced mood disorder,mental_health_disorders
+F10.15,alcohol abuse with alcohol-induced psychotic disorder,mental_health_disorders
+F10.150,alcohol abuse with alcohol-induced psychotic disorder with delusions,mental_health_disorders
+F10.151,alcohol abuse with alcohol-induced psychotic disorder with hallucinations,mental_health_disorders
+F10.159,"alcohol abuse with alcohol-induced psychotic disorder, unspecified",mental_health_disorders
+F10.18,alcohol abuse with other alcohol-induced disorders,mental_health_disorders
+F10.180,alcohol abuse with alcohol-induced anxiety disorder,mental_health_disorders
+F10.181,alcohol abuse with alcohol-induced sexual dysfunction,mental_health_disorders
+F10.182,alcohol abuse with alcohol-induced sleep disorder,mental_health_disorders
+F10.188,alcohol abuse with other alcohol-induced disorder,mental_health_disorders
+F10.19,alcohol abuse with unspecified alcohol-induced disorder,mental_health_disorders
+F10.2,alcohol dependence,mental_health_disorders
+F10.20,"alcohol dependence, uncomplicated",mental_health_disorders
+F10.21,"alcohol dependence, in remission",mental_health_disorders
+F10.22,alcohol dependence with intoxication,mental_health_disorders
+F10.220,"alcohol dependence with intoxication, uncomplicated",mental_health_disorders
+F10.221,alcohol dependence with intoxication delirium,mental_health_disorders
+F10.229,"alcohol dependence with intoxication, unspecified",mental_health_disorders
+F10.23,alcohol dependence with withdrawal,mental_health_disorders
+F10.230,"alcohol dependence with withdrawal, uncomplicated",mental_health_disorders
+F10.231,alcohol dependence with withdrawal delirium,mental_health_disorders
+F10.232,alcohol dependence with withdrawal with perceptual disturbance,mental_health_disorders
+F10.239,"alcohol dependence with withdrawal, unspecified",mental_health_disorders
+F10.24,alcohol dependence with alcohol-induced mood disorder,mental_health_disorders
+F10.25,alcohol dependence with alcohol-induced psychotic disorder,mental_health_disorders
+F10.250,alcohol dependence with alcohol-induced psychotic disorder with delusions,mental_health_disorders
+F10.251,alcohol dependence with alcohol-induced psychotic disorder with hallucinations,mental_health_disorders
+F10.259,"alcohol dependence with alcohol-induced psychotic disorder, unspecified",mental_health_disorders
+F10.26,alcohol dependence with alcohol-induced persisting amnestic disorder,mental_health_disorders
+F10.27,alcohol dependence with alcohol-induced persisting dementia,mental_health_disorders
+F10.28,alcohol dependence with other alcohol-induced disorders,mental_health_disorders
+F10.280,alcohol dependence with alcohol-induced anxiety disorder,mental_health_disorders
+F10.281,alcohol dependence with alcohol-induced sexual dysfunction,mental_health_disorders
+F10.282,alcohol dependence with alcohol-induced sleep disorder,mental_health_disorders
+F10.288,alcohol dependence with other alcohol-induced disorder,mental_health_disorders
+F10.29,alcohol dependence with unspecified alcohol-induced disorder,mental_health_disorders
+F10.9,"alcohol use, unspecified",mental_health_disorders
+F10.90,"alcohol use, unspecified, uncomplicated",mental_health_disorders
+F10.91,"alcohol use, unspecified, in remission",mental_health_disorders
+F10.92,"alcohol use, unspecified with intoxication",mental_health_disorders
+F10.920,"alcohol use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F10.921,"alcohol use, unspecified with intoxication delirium",mental_health_disorders
+F10.929,"alcohol use, unspecified with intoxication, unspecified",mental_health_disorders
+F10.93,"alcohol use, unspecified with withdrawal",mental_health_disorders
+F10.930,"alcohol use, unspecified with withdrawal, uncomplicated",mental_health_disorders
+F10.931,"alcohol use, unspecified with withdrawal delirium",mental_health_disorders
+F10.932,"alcohol use, unspecified with withdrawal with perceptual disturbance",mental_health_disorders
+F10.939,"alcohol use, unspecified with withdrawal, unspecified",mental_health_disorders
+F10.94,"alcohol use, unspecified with alcohol-induced mood disorder",mental_health_disorders
+F10.95,"alcohol use, unspecified with alcohol-induced psychotic disorder",mental_health_disorders
+F10.950,"alcohol use, unspecified with alcohol-induced psychotic disorder with delusions",mental_health_disorders
+F10.951,"alcohol use, unspecified with alcohol-induced psychotic disorder with hallucinations",mental_health_disorders
+F10.959,"alcohol use, unspecified with alcohol-induced psychotic disorder, unspecified",mental_health_disorders
+F10.96,"alcohol use, unspecified with alcohol-induced persisting amnestic disorder",mental_health_disorders
+F10.97,"alcohol use, unspecified with alcohol-induced persisting dementia",mental_health_disorders
+F10.98,"alcohol use, unspecified with other alcohol-induced disorders",mental_health_disorders
+F10.980,"alcohol use, unspecified with alcohol-induced anxiety disorder",mental_health_disorders
+F10.981,"alcohol use, unspecified with alcohol-induced sexual dysfunction",mental_health_disorders
+F10.982,"alcohol use, unspecified with alcohol-induced sleep disorder",mental_health_disorders
+F10.988,"alcohol use, unspecified with other alcohol-induced disorder",mental_health_disorders
+F10.99,"alcohol use, unspecified with unspecified alcohol-induced disorder",mental_health_disorders
+F11,opioid related disorders,mental_health_disorders
+F11.1,opioid abuse,mental_health_disorders
+F11.10,"opioid abuse, uncomplicated",mental_health_disorders
+F11.11,"opioid abuse, in remission",mental_health_disorders
+F11.12,opioid abuse with intoxication,mental_health_disorders
+F11.120,"opioid abuse with intoxication, uncomplicated",mental_health_disorders
+F11.121,opioid abuse with intoxication delirium,mental_health_disorders
+F11.122,opioid abuse with intoxication with perceptual disturbance,mental_health_disorders
+F11.129,"opioid abuse with intoxication, unspecified",mental_health_disorders
+F11.13,opioid abuse with withdrawal,mental_health_disorders
+F11.14,opioid abuse with opioid-induced mood disorder,mental_health_disorders
+F11.15,opioid abuse with opioid-induced psychotic disorder,mental_health_disorders
+F11.150,opioid abuse with opioid-induced psychotic disorder with delusions,mental_health_disorders
+F11.151,opioid abuse with opioid-induced psychotic disorder with hallucinations,mental_health_disorders
+F11.159,"opioid abuse with opioid-induced psychotic disorder, unspecified",mental_health_disorders
+F11.18,opioid abuse with other opioid-induced disorder,mental_health_disorders
+F11.181,opioid abuse with opioid-induced sexual dysfunction,mental_health_disorders
+F11.182,opioid abuse with opioid-induced sleep disorder,mental_health_disorders
+F11.188,opioid abuse with other opioid-induced disorder,mental_health_disorders
+F11.19,opioid abuse with unspecified opioid-induced disorder,mental_health_disorders
+F11.2,opioid dependence,mental_health_disorders
+F11.20,"opioid dependence, uncomplicated",mental_health_disorders
+F11.21,"opioid dependence, in remission",mental_health_disorders
+F11.22,opioid dependence with intoxication,mental_health_disorders
+F11.220,"opioid dependence with intoxication, uncomplicated",mental_health_disorders
+F11.221,opioid dependence with intoxication delirium,mental_health_disorders
+F11.222,opioid dependence with intoxication with perceptual disturbance,mental_health_disorders
+F11.229,"opioid dependence with intoxication, unspecified",mental_health_disorders
+F11.23,opioid dependence with withdrawal,mental_health_disorders
+F11.24,opioid dependence with opioid-induced mood disorder,mental_health_disorders
+F11.25,opioid dependence with opioid-induced psychotic disorder,mental_health_disorders
+F11.250,opioid dependence with opioid-induced psychotic disorder with delusions,mental_health_disorders
+F11.251,opioid dependence with opioid-induced psychotic disorder with hallucinations,mental_health_disorders
+F11.259,"opioid dependence with opioid-induced psychotic disorder, unspecified",mental_health_disorders
+F11.28,opioid dependence with other opioid-induced disorder,mental_health_disorders
+F11.281,opioid dependence with opioid-induced sexual dysfunction,mental_health_disorders
+F11.282,opioid dependence with opioid-induced sleep disorder,mental_health_disorders
+F11.288,opioid dependence with other opioid-induced disorder,mental_health_disorders
+F11.29,opioid dependence with unspecified opioid-induced disorder,mental_health_disorders
+F11.9,"opioid use, unspecified",mental_health_disorders
+F11.90,"opioid use, unspecified, uncomplicated",mental_health_disorders
+F11.91,"opioid use, unspecified, in remission",mental_health_disorders
+F11.92,"opioid use, unspecified with intoxication",mental_health_disorders
+F11.920,"opioid use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F11.921,"opioid use, unspecified with intoxication delirium",mental_health_disorders
+F11.922,"opioid use, unspecified with intoxication with perceptual disturbance",mental_health_disorders
+F11.929,"opioid use, unspecified with intoxication, unspecified",mental_health_disorders
+F11.93,"opioid use, unspecified with withdrawal",mental_health_disorders
+F11.94,"opioid use, unspecified with opioid-induced mood disorder",mental_health_disorders
+F11.95,"opioid use, unspecified with opioid-induced psychotic disorder",mental_health_disorders
+F11.950,"opioid use, unspecified with opioid-induced psychotic disorder with delusions",mental_health_disorders
+F11.951,"opioid use, unspecified with opioid-induced psychotic disorder with hallucinations",mental_health_disorders
+F11.959,"opioid use, unspecified with opioid-induced psychotic disorder, unspecified",mental_health_disorders
+F11.98,"opioid use, unspecified with other specified opioid-induced disorder",mental_health_disorders
+F11.981,"opioid use, unspecified with opioid-induced sexual dysfunction",mental_health_disorders
+F11.982,"opioid use, unspecified with opioid-induced sleep disorder",mental_health_disorders
+F11.988,"opioid use, unspecified with other opioid-induced disorder",mental_health_disorders
+F11.99,"opioid use, unspecified with unspecified opioid-induced disorder",mental_health_disorders
+F12,cannabis related disorders,mental_health_disorders
+F12.1,cannabis abuse,mental_health_disorders
+F12.10,"cannabis abuse, uncomplicated",mental_health_disorders
+F12.11,"cannabis abuse, in remission",mental_health_disorders
+F12.12,cannabis abuse with intoxication,mental_health_disorders
+F12.120,"cannabis abuse with intoxication, uncomplicated",mental_health_disorders
+F12.121,cannabis abuse with intoxication delirium,mental_health_disorders
+F12.122,cannabis abuse with intoxication with perceptual disturbance,mental_health_disorders
+F12.129,"cannabis abuse with intoxication, unspecified",mental_health_disorders
+F12.13,cannabis abuse with withdrawal,mental_health_disorders
+F12.15,cannabis abuse with psychotic disorder,mental_health_disorders
+F12.150,cannabis abuse with psychotic disorder with delusions,mental_health_disorders
+F12.151,cannabis abuse with psychotic disorder with hallucinations,mental_health_disorders
+F12.159,"cannabis abuse with psychotic disorder, unspecified",mental_health_disorders
+F12.18,cannabis abuse with other cannabis-induced disorder,mental_health_disorders
+F12.180,cannabis abuse with cannabis-induced anxiety disorder,mental_health_disorders
+F12.188,cannabis abuse with other cannabis-induced disorder,mental_health_disorders
+F12.19,cannabis abuse with unspecified cannabis-induced disorder,mental_health_disorders
+F12.2,cannabis dependence,mental_health_disorders
+F12.20,"cannabis dependence, uncomplicated",mental_health_disorders
+F12.21,"cannabis dependence, in remission",mental_health_disorders
+F12.22,cannabis dependence with intoxication,mental_health_disorders
+F12.220,"cannabis dependence with intoxication, uncomplicated",mental_health_disorders
+F12.221,cannabis dependence with intoxication delirium,mental_health_disorders
+F12.222,cannabis dependence with intoxication with perceptual disturbance,mental_health_disorders
+F12.229,"cannabis dependence with intoxication, unspecified",mental_health_disorders
+F12.23,cannabis dependence with withdrawal,mental_health_disorders
+F12.25,cannabis dependence with psychotic disorder,mental_health_disorders
+F12.250,cannabis dependence with psychotic disorder with delusions,mental_health_disorders
+F12.251,cannabis dependence with psychotic disorder with hallucinations,mental_health_disorders
+F12.259,"cannabis dependence with psychotic disorder, unspecified",mental_health_disorders
+F12.28,cannabis dependence with other cannabis-induced disorder,mental_health_disorders
+F12.280,cannabis dependence with cannabis-induced anxiety disorder,mental_health_disorders
+F12.288,cannabis dependence with other cannabis-induced disorder,mental_health_disorders
+F12.29,cannabis dependence with unspecified cannabis-induced disorder,mental_health_disorders
+F12.9,"cannabis use, unspecified",mental_health_disorders
+F12.90,"cannabis use, unspecified, uncomplicated",mental_health_disorders
+F12.91,"cannabis use, unspecified, in remission",mental_health_disorders
+F12.92,"cannabis use, unspecified with intoxication",mental_health_disorders
+F12.920,"cannabis use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F12.921,"cannabis use, unspecified with intoxication delirium",mental_health_disorders
+F12.922,"cannabis use, unspecified with intoxication with perceptual disturbance",mental_health_disorders
+F12.929,"cannabis use, unspecified with intoxication, unspecified",mental_health_disorders
+F12.93,"cannabis use, unspecified with withdrawal",mental_health_disorders
+F12.95,"cannabis use, unspecified with psychotic disorder",mental_health_disorders
+F12.950,"cannabis use, unspecified with psychotic disorder with delusions",mental_health_disorders
+F12.951,"cannabis use, unspecified with psychotic disorder with hallucinations",mental_health_disorders
+F12.959,"cannabis use, unspecified with psychotic disorder, unspecified",mental_health_disorders
+F12.98,"cannabis use, unspecified with other cannabis-induced disorder",mental_health_disorders
+F12.980,"cannabis use, unspecified with anxiety disorder",mental_health_disorders
+F12.988,"cannabis use, unspecified with other cannabis-induced disorder",mental_health_disorders
+F12.99,"cannabis use, unspecified with unspecified cannabis-induced disorder",mental_health_disorders
+F13,"sedative, hypnotic, or anxiolytic related disorders",mental_health_disorders
+F13.1,"sedative, hypnotic or anxiolytic-related abuse",mental_health_disorders
+F13.10,"sedative, hypnotic or anxiolytic abuse, uncomplicated",mental_health_disorders
+F13.11,"sedative, hypnotic or anxiolytic abuse, in remission",mental_health_disorders
+F13.12,"sedative, hypnotic or anxiolytic abuse with intoxication",mental_health_disorders
+F13.120,"sedative, hypnotic or anxiolytic abuse with intoxication, uncomplicated",mental_health_disorders
+F13.121,"sedative, hypnotic or anxiolytic abuse with intoxication delirium",mental_health_disorders
+F13.129,"sedative, hypnotic or anxiolytic abuse with intoxication, unspecified",mental_health_disorders
+F13.13,"sedative, hypnotic or anxiolytic abuse with withdrawal",mental_health_disorders
+F13.130,"sedative, hypnotic or anxiolytic abuse with withdrawal, uncomplicated",mental_health_disorders
+F13.131,"sedative, hypnotic or anxiolytic abuse with withdrawal delirium",mental_health_disorders
+F13.132,"sedative, hypnotic or anxiolytic abuse with withdrawal with perceptual disturbance",mental_health_disorders
+F13.139,"sedative, hypnotic or anxiolytic abuse with withdrawal, unspecified",mental_health_disorders
+F13.14,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced mood disorder",mental_health_disorders
+F13.15,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder",mental_health_disorders
+F13.150,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions",mental_health_disorders
+F13.151,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations",mental_health_disorders
+F13.159,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified",mental_health_disorders
+F13.18,"sedative, hypnotic or anxiolytic abuse with other sedative, hypnotic or anxiolytic-induced disorders",mental_health_disorders
+F13.180,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced anxiety disorder",mental_health_disorders
+F13.181,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced sexual dysfunction",mental_health_disorders
+F13.182,"sedative, hypnotic or anxiolytic abuse with sedative, hypnotic or anxiolytic-induced sleep disorder",mental_health_disorders
+F13.188,"sedative, hypnotic or anxiolytic abuse with other sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F13.19,"sedative, hypnotic or anxiolytic abuse with unspecified sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F13.2,"sedative, hypnotic or anxiolytic-related dependence",mental_health_disorders
+F13.20,"sedative, hypnotic or anxiolytic dependence, uncomplicated",mental_health_disorders
+F13.21,"sedative, hypnotic or anxiolytic dependence, in remission",mental_health_disorders
+F13.22,"sedative, hypnotic or anxiolytic dependence with intoxication",mental_health_disorders
+F13.220,"sedative, hypnotic or anxiolytic dependence with intoxication, uncomplicated",mental_health_disorders
+F13.221,"sedative, hypnotic or anxiolytic dependence with intoxication delirium",mental_health_disorders
+F13.229,"sedative, hypnotic or anxiolytic dependence with intoxication, unspecified",mental_health_disorders
+F13.23,"sedative, hypnotic or anxiolytic dependence with withdrawal",mental_health_disorders
+F13.230,"sedative, hypnotic or anxiolytic dependence with withdrawal, uncomplicated",mental_health_disorders
+F13.231,"sedative, hypnotic or anxiolytic dependence with withdrawal delirium",mental_health_disorders
+F13.232,"sedative, hypnotic or anxiolytic dependence with withdrawal with perceptual disturbance",mental_health_disorders
+F13.239,"sedative, hypnotic or anxiolytic dependence with withdrawal, unspecified",mental_health_disorders
+F13.24,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced mood disorder",mental_health_disorders
+F13.25,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder",mental_health_disorders
+F13.250,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions",mental_health_disorders
+F13.251,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations",mental_health_disorders
+F13.259,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified",mental_health_disorders
+F13.26,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced persisting amnestic disorder",mental_health_disorders
+F13.27,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced persisting dementia",mental_health_disorders
+F13.28,"sedative, hypnotic or anxiolytic dependence with other sedative, hypnotic or anxiolytic-induced disorders",mental_health_disorders
+F13.280,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced anxiety disorder",mental_health_disorders
+F13.281,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced sexual dysfunction",mental_health_disorders
+F13.282,"sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced sleep disorder",mental_health_disorders
+F13.288,"sedative, hypnotic or anxiolytic dependence with other sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F13.29,"sedative, hypnotic or anxiolytic dependence with unspecified sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F13.9,"sedative, hypnotic or anxiolytic-related use, unspecified",mental_health_disorders
+F13.90,"sedative, hypnotic, or anxiolytic use, unspecified, uncomplicated",mental_health_disorders
+F13.91,"sedative, hypnotic or anxiolytic use, unspecified, in remission",mental_health_disorders
+F13.92,"sedative, hypnotic or anxiolytic use, unspecified with intoxication",mental_health_disorders
+F13.920,"sedative, hypnotic or anxiolytic use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F13.921,"sedative, hypnotic or anxiolytic use, unspecified with intoxication delirium",mental_health_disorders
+F13.929,"sedative, hypnotic or anxiolytic use, unspecified with intoxication, unspecified",mental_health_disorders
+F13.93,"sedative, hypnotic or anxiolytic use, unspecified with withdrawal",mental_health_disorders
+F13.930,"sedative, hypnotic or anxiolytic use, unspecified with withdrawal, uncomplicated",mental_health_disorders
+F13.931,"sedative, hypnotic or anxiolytic use, unspecified with withdrawal delirium",mental_health_disorders
+F13.932,"sedative, hypnotic or anxiolytic use, unspecified with withdrawal with perceptual disturbances",mental_health_disorders
+F13.939,"sedative, hypnotic or anxiolytic use, unspecified with withdrawal, unspecified",mental_health_disorders
+F13.94,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced mood disorder",mental_health_disorders
+F13.95,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder",mental_health_disorders
+F13.950,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder with delusions",mental_health_disorders
+F13.951,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder with hallucinations",mental_health_disorders
+F13.959,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced psychotic disorder, unspecified",mental_health_disorders
+F13.96,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced persisting amnestic disorder",mental_health_disorders
+F13.97,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced persisting dementia",mental_health_disorders
+F13.98,"sedative, hypnotic or anxiolytic use, unspecified with other sedative, hypnotic or anxiolytic-induced disorders",mental_health_disorders
+F13.980,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced anxiety disorder",mental_health_disorders
+F13.981,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced sexual dysfunction",mental_health_disorders
+F13.982,"sedative, hypnotic or anxiolytic use, unspecified with sedative, hypnotic or anxiolytic-induced sleep disorder",mental_health_disorders
+F13.988,"sedative, hypnotic or anxiolytic use, unspecified with other sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F13.99,"sedative, hypnotic or anxiolytic use, unspecified with unspecified sedative, hypnotic or anxiolytic-induced disorder",mental_health_disorders
+F14,cocaine related disorders,mental_health_disorders
+F14.1,cocaine abuse,mental_health_disorders
+F14.10,"cocaine abuse, uncomplicated",mental_health_disorders
+F14.11,"cocaine abuse, in remission",mental_health_disorders
+F14.12,cocaine abuse with intoxication,mental_health_disorders
+F14.120,"cocaine abuse with intoxication, uncomplicated",mental_health_disorders
+F14.121,cocaine abuse with intoxication with delirium,mental_health_disorders
+F14.122,cocaine abuse with intoxication with perceptual disturbance,mental_health_disorders
+F14.129,"cocaine abuse with intoxication, unspecified",mental_health_disorders
+F14.13,"cocaine abuse, unspecified with withdrawal",mental_health_disorders
+F14.14,cocaine abuse with cocaine-induced mood disorder,mental_health_disorders
+F14.15,cocaine abuse with cocaine-induced psychotic disorder,mental_health_disorders
+F14.150,cocaine abuse with cocaine-induced psychotic disorder with delusions,mental_health_disorders
+F14.151,cocaine abuse with cocaine-induced psychotic disorder with hallucinations,mental_health_disorders
+F14.159,"cocaine abuse with cocaine-induced psychotic disorder, unspecified",mental_health_disorders
+F14.18,cocaine abuse with other cocaine-induced disorder,mental_health_disorders
+F14.180,cocaine abuse with cocaine-induced anxiety disorder,mental_health_disorders
+F14.181,cocaine abuse with cocaine-induced sexual dysfunction,mental_health_disorders
+F14.182,cocaine abuse with cocaine-induced sleep disorder,mental_health_disorders
+F14.188,cocaine abuse with other cocaine-induced disorder,mental_health_disorders
+F14.19,cocaine abuse with unspecified cocaine-induced disorder,mental_health_disorders
+F14.2,cocaine dependence,mental_health_disorders
+F14.20,"cocaine dependence, uncomplicated",mental_health_disorders
+F14.21,"cocaine dependence, in remission",mental_health_disorders
+F14.22,cocaine dependence with intoxication,mental_health_disorders
+F14.220,"cocaine dependence with intoxication, uncomplicated",mental_health_disorders
+F14.221,cocaine dependence with intoxication delirium,mental_health_disorders
+F14.222,cocaine dependence with intoxication with perceptual disturbance,mental_health_disorders
+F14.229,"cocaine dependence with intoxication, unspecified",mental_health_disorders
+F14.23,cocaine dependence with withdrawal,mental_health_disorders
+F14.24,cocaine dependence with cocaine-induced mood disorder,mental_health_disorders
+F14.25,cocaine dependence with cocaine-induced psychotic disorder,mental_health_disorders
+F14.250,cocaine dependence with cocaine-induced psychotic disorder with delusions,mental_health_disorders
+F14.251,cocaine dependence with cocaine-induced psychotic disorder with hallucinations,mental_health_disorders
+F14.259,"cocaine dependence with cocaine-induced psychotic disorder, unspecified",mental_health_disorders
+F14.28,cocaine dependence with other cocaine-induced disorder,mental_health_disorders
+F14.280,cocaine dependence with cocaine-induced anxiety disorder,mental_health_disorders
+F14.281,cocaine dependence with cocaine-induced sexual dysfunction,mental_health_disorders
+F14.282,cocaine dependence with cocaine-induced sleep disorder,mental_health_disorders
+F14.288,cocaine dependence with other cocaine-induced disorder,mental_health_disorders
+F14.29,cocaine dependence with unspecified cocaine-induced disorder,mental_health_disorders
+F14.9,"cocaine use, unspecified",mental_health_disorders
+F14.90,"cocaine use, unspecified, uncomplicated",mental_health_disorders
+F14.91,"cocaine use, unspecified, in remission",mental_health_disorders
+F14.92,"cocaine use, unspecified with intoxication",mental_health_disorders
+F14.920,"cocaine use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F14.921,"cocaine use, unspecified with intoxication delirium",mental_health_disorders
+F14.922,"cocaine use, unspecified with intoxication with perceptual disturbance",mental_health_disorders
+F14.929,"cocaine use, unspecified with intoxication, unspecified",mental_health_disorders
+F14.93,"cocaine use, unspecified with withdrawal",mental_health_disorders
+F14.94,"cocaine use, unspecified with cocaine-induced mood disorder",mental_health_disorders
+F14.95,"cocaine use, unspecified with cocaine-induced psychotic disorder",mental_health_disorders
+F14.950,"cocaine use, unspecified with cocaine-induced psychotic disorder with delusions",mental_health_disorders
+F14.951,"cocaine use, unspecified with cocaine-induced psychotic disorder with hallucinations",mental_health_disorders
+F14.959,"cocaine use, unspecified with cocaine-induced psychotic disorder, unspecified",mental_health_disorders
+F14.98,"cocaine use, unspecified with other specified cocaine-induced disorder",mental_health_disorders
+F14.980,"cocaine use, unspecified with cocaine-induced anxiety disorder",mental_health_disorders
+F14.981,"cocaine use, unspecified with cocaine-induced sexual dysfunction",mental_health_disorders
+F14.982,"cocaine use, unspecified with cocaine-induced sleep disorder",mental_health_disorders
+F14.988,"cocaine use, unspecified with other cocaine-induced disorder",mental_health_disorders
+F14.99,"cocaine use, unspecified with unspecified cocaine-induced disorder",mental_health_disorders
+F15,other stimulant related disorders,mental_health_disorders
+F15.1,other stimulant abuse,mental_health_disorders
+F15.10,"other stimulant abuse, uncomplicated",mental_health_disorders
+F15.11,"other stimulant abuse, in remission",mental_health_disorders
+F15.12,other stimulant abuse with intoxication,mental_health_disorders
+F15.120,"other stimulant abuse with intoxication, uncomplicated",mental_health_disorders
+F15.121,other stimulant abuse with intoxication delirium,mental_health_disorders
+F15.122,other stimulant abuse with intoxication with perceptual disturbance,mental_health_disorders
+F15.129,"other stimulant abuse with intoxication, unspecified",mental_health_disorders
+F15.13,other stimulant abuse with withdrawal,mental_health_disorders
+F15.14,other stimulant abuse with stimulant-induced mood disorder,mental_health_disorders
+F15.15,other stimulant abuse with stimulant-induced psychotic disorder,mental_health_disorders
+F15.150,other stimulant abuse with stimulant-induced psychotic disorder with delusions,mental_health_disorders
+F15.151,other stimulant abuse with stimulant-induced psychotic disorder with hallucinations,mental_health_disorders
+F15.159,"other stimulant abuse with stimulant-induced psychotic disorder, unspecified",mental_health_disorders
+F15.18,other stimulant abuse with other stimulant-induced disorder,mental_health_disorders
+F15.180,other stimulant abuse with stimulant-induced anxiety disorder,mental_health_disorders
+F15.181,other stimulant abuse with stimulant-induced sexual dysfunction,mental_health_disorders
+F15.182,other stimulant abuse with stimulant-induced sleep disorder,mental_health_disorders
+F15.188,other stimulant abuse with other stimulant-induced disorder,mental_health_disorders
+F15.19,other stimulant abuse with unspecified stimulant-induced disorder,mental_health_disorders
+F15.2,other stimulant dependence,mental_health_disorders
+F15.20,"other stimulant dependence, uncomplicated",mental_health_disorders
+F15.21,"other stimulant dependence, in remission",mental_health_disorders
+F15.22,other stimulant dependence with intoxication,mental_health_disorders
+F15.220,"other stimulant dependence with intoxication, uncomplicated",mental_health_disorders
+F15.221,other stimulant dependence with intoxication delirium,mental_health_disorders
+F15.222,other stimulant dependence with intoxication with perceptual disturbance,mental_health_disorders
+F15.229,"other stimulant dependence with intoxication, unspecified",mental_health_disorders
+F15.23,other stimulant dependence with withdrawal,mental_health_disorders
+F15.24,other stimulant dependence with stimulant-induced mood disorder,mental_health_disorders
+F15.25,other stimulant dependence with stimulant-induced psychotic disorder,mental_health_disorders
+F15.250,other stimulant dependence with stimulant-induced psychotic disorder with delusions,mental_health_disorders
+F15.251,other stimulant dependence with stimulant-induced psychotic disorder with hallucinations,mental_health_disorders
+F15.259,"other stimulant dependence with stimulant-induced psychotic disorder, unspecified",mental_health_disorders
+F15.28,other stimulant dependence with other stimulant-induced disorder,mental_health_disorders
+F15.280,other stimulant dependence with stimulant-induced anxiety disorder,mental_health_disorders
+F15.281,other stimulant dependence with stimulant-induced sexual dysfunction,mental_health_disorders
+F15.282,other stimulant dependence with stimulant-induced sleep disorder,mental_health_disorders
+F15.288,other stimulant dependence with other stimulant-induced disorder,mental_health_disorders
+F15.29,other stimulant dependence with unspecified stimulant-induced disorder,mental_health_disorders
+F15.9,"other stimulant use, unspecified",mental_health_disorders
+F15.90,"other stimulant use, unspecified, uncomplicated",mental_health_disorders
+F15.91,"other stimulant use, unspecified, in remission",mental_health_disorders
+F15.92,"other stimulant use, unspecified with intoxication",mental_health_disorders
+F15.920,"other stimulant use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F15.921,"other stimulant use, unspecified with intoxication delirium",mental_health_disorders
+F15.922,"other stimulant use, unspecified with intoxication with perceptual disturbance",mental_health_disorders
+F15.929,"other stimulant use, unspecified with intoxication, unspecified",mental_health_disorders
+F15.93,"other stimulant use, unspecified with withdrawal",mental_health_disorders
+F15.94,"other stimulant use, unspecified with stimulant-induced mood disorder",mental_health_disorders
+F15.95,"other stimulant use, unspecified with stimulant-induced psychotic disorder",mental_health_disorders
+F15.950,"other stimulant use, unspecified with stimulant-induced psychotic disorder with delusions",mental_health_disorders
+F15.951,"other stimulant use, unspecified with stimulant-induced psychotic disorder with hallucinations",mental_health_disorders
+F15.959,"other stimulant use, unspecified with stimulant-induced psychotic disorder, unspecified",mental_health_disorders
+F15.98,"other stimulant use, unspecified with other stimulant-induced disorder",mental_health_disorders
+F15.980,"other stimulant use, unspecified with stimulant-induced anxiety disorder",mental_health_disorders
+F15.981,"other stimulant use, unspecified with stimulant-induced sexual dysfunction",mental_health_disorders
+F15.982,"other stimulant use, unspecified with stimulant-induced sleep disorder",mental_health_disorders
+F15.988,"other stimulant use, unspecified with other stimulant-induced disorder",mental_health_disorders
+F15.99,"other stimulant use, unspecified with unspecified stimulant-induced disorder",mental_health_disorders
+F16,hallucinogen related disorders,mental_health_disorders
+F16.1,hallucinogen abuse,mental_health_disorders
+F16.10,"hallucinogen abuse, uncomplicated",mental_health_disorders
+F16.11,"hallucinogen abuse, in remission",mental_health_disorders
+F16.12,hallucinogen abuse with intoxication,mental_health_disorders
+F16.120,"hallucinogen abuse with intoxication, uncomplicated",mental_health_disorders
+F16.121,hallucinogen abuse with intoxication with delirium,mental_health_disorders
+F16.122,hallucinogen abuse with intoxication with perceptual disturbance,mental_health_disorders
+F16.129,"hallucinogen abuse with intoxication, unspecified",mental_health_disorders
+F16.14,hallucinogen abuse with hallucinogen-induced mood disorder,mental_health_disorders
+F16.15,hallucinogen abuse with hallucinogen-induced psychotic disorder,mental_health_disorders
+F16.150,hallucinogen abuse with hallucinogen-induced psychotic disorder with delusions,mental_health_disorders
+F16.151,hallucinogen abuse with hallucinogen-induced psychotic disorder with hallucinations,mental_health_disorders
+F16.159,"hallucinogen abuse with hallucinogen-induced psychotic disorder, unspecified",mental_health_disorders
+F16.18,hallucinogen abuse with other hallucinogen-induced disorder,mental_health_disorders
+F16.180,hallucinogen abuse with hallucinogen-induced anxiety disorder,mental_health_disorders
+F16.183,hallucinogen abuse with hallucinogen persisting perception disorder (flashbacks),mental_health_disorders
+F16.188,hallucinogen abuse with other hallucinogen-induced disorder,mental_health_disorders
+F16.19,hallucinogen abuse with unspecified hallucinogen-induced disorder,mental_health_disorders
+F16.2,hallucinogen dependence,mental_health_disorders
+F16.20,"hallucinogen dependence, uncomplicated",mental_health_disorders
+F16.21,"hallucinogen dependence, in remission",mental_health_disorders
+F16.22,hallucinogen dependence with intoxication,mental_health_disorders
+F16.220,"hallucinogen dependence with intoxication, uncomplicated",mental_health_disorders
+F16.221,hallucinogen dependence with intoxication with delirium,mental_health_disorders
+F16.229,"hallucinogen dependence with intoxication, unspecified",mental_health_disorders
+F16.24,hallucinogen dependence with hallucinogen-induced mood disorder,mental_health_disorders
+F16.25,hallucinogen dependence with hallucinogen-induced psychotic disorder,mental_health_disorders
+F16.250,hallucinogen dependence with hallucinogen-induced psychotic disorder with delusions,mental_health_disorders
+F16.251,hallucinogen dependence with hallucinogen-induced psychotic disorder with hallucinations,mental_health_disorders
+F16.259,"hallucinogen dependence with hallucinogen-induced psychotic disorder, unspecified",mental_health_disorders
+F16.28,hallucinogen dependence with other hallucinogen-induced disorder,mental_health_disorders
+F16.280,hallucinogen dependence with hallucinogen-induced anxiety disorder,mental_health_disorders
+F16.283,hallucinogen dependence with hallucinogen persisting perception disorder (flashbacks),mental_health_disorders
+F16.288,hallucinogen dependence with other hallucinogen-induced disorder,mental_health_disorders
+F16.29,hallucinogen dependence with unspecified hallucinogen-induced disorder,mental_health_disorders
+F16.9,"hallucinogen use, unspecified",mental_health_disorders
+F16.90,"hallucinogen use, unspecified, uncomplicated",mental_health_disorders
+F16.91,"hallucinogen use, unspecified, in remission",mental_health_disorders
+F16.92,"hallucinogen use, unspecified with intoxication",mental_health_disorders
+F16.920,"hallucinogen use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F16.921,"hallucinogen use, unspecified with intoxication with delirium",mental_health_disorders
+F16.929,"hallucinogen use, unspecified with intoxication, unspecified",mental_health_disorders
+F16.94,"hallucinogen use, unspecified with hallucinogen-induced mood disorder",mental_health_disorders
+F16.95,"hallucinogen use, unspecified with hallucinogen-induced psychotic disorder",mental_health_disorders
+F16.950,"hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with delusions",mental_health_disorders
+F16.951,"hallucinogen use, unspecified with hallucinogen-induced psychotic disorder with hallucinations",mental_health_disorders
+F16.959,"hallucinogen use, unspecified with hallucinogen-induced psychotic disorder, unspecified",mental_health_disorders
+F16.98,"hallucinogen use, unspecified with other specified hallucinogen-induced disorder",mental_health_disorders
+F16.980,"hallucinogen use, unspecified with hallucinogen-induced anxiety disorder",mental_health_disorders
+F16.983,"hallucinogen use, unspecified with hallucinogen persisting perception disorder (flashbacks)",mental_health_disorders
+F16.988,"hallucinogen use, unspecified with other hallucinogen-induced disorder",mental_health_disorders
+F16.99,"hallucinogen use, unspecified with unspecified hallucinogen-induced disorder",mental_health_disorders
+F17,nicotine dependence,mental_health_disorders
+F17.2,nicotine dependence,mental_health_disorders
+F17.20,"nicotine dependence, unspecified",mental_health_disorders
+F17.200,"nicotine dependence, unspecified, uncomplicated",mental_health_disorders
+F17.201,"nicotine dependence, unspecified, in remission",mental_health_disorders
+F17.203,"nicotine dependence unspecified, with withdrawal",mental_health_disorders
+F17.208,"nicotine dependence, unspecified, with other nicotine-induced disorders",mental_health_disorders
+F17.209,"nicotine dependence, unspecified, with unspecified nicotine-induced disorders",mental_health_disorders
+F17.21,"nicotine dependence, cigarettes",mental_health_disorders
+F17.210,"nicotine dependence, cigarettes, uncomplicated",mental_health_disorders
+F17.211,"nicotine dependence, cigarettes, in remission",mental_health_disorders
+F17.213,"nicotine dependence, cigarettes, with withdrawal",mental_health_disorders
+F17.218,"nicotine dependence, cigarettes, with other nicotine-induced disorders",mental_health_disorders
+F17.219,"nicotine dependence, cigarettes, with unspecified nicotine-induced disorders",mental_health_disorders
+F17.22,"nicotine dependence, chewing tobacco",mental_health_disorders
+F17.220,"nicotine dependence, chewing tobacco, uncomplicated",mental_health_disorders
+F17.221,"nicotine dependence, chewing tobacco, in remission",mental_health_disorders
+F17.223,"nicotine dependence, chewing tobacco, with withdrawal",mental_health_disorders
+F17.228,"nicotine dependence, chewing tobacco, with other nicotine-induced disorders",mental_health_disorders
+F17.229,"nicotine dependence, chewing tobacco, with unspecified nicotine-induced disorders",mental_health_disorders
+F17.29,"nicotine dependence, other tobacco product",mental_health_disorders
+F17.290,"nicotine dependence, other tobacco product, uncomplicated",mental_health_disorders
+F17.291,"nicotine dependence, other tobacco product, in remission",mental_health_disorders
+F17.293,"nicotine dependence, other tobacco product, with withdrawal",mental_health_disorders
+F17.298,"nicotine dependence, other tobacco product, with other nicotine-induced disorders",mental_health_disorders
+F17.299,"nicotine dependence, other tobacco product, with unspecified nicotine-induced disorders",mental_health_disorders
+F18,inhalant related disorders,mental_health_disorders
+F18.1,inhalant abuse,mental_health_disorders
+F18.10,"inhalant abuse, uncomplicated",mental_health_disorders
+F18.11,"inhalant abuse, in remission",mental_health_disorders
+F18.12,inhalant abuse with intoxication,mental_health_disorders
+F18.120,"inhalant abuse with intoxication, uncomplicated",mental_health_disorders
+F18.121,inhalant abuse with intoxication delirium,mental_health_disorders
+F18.129,"inhalant abuse with intoxication, unspecified",mental_health_disorders
+F18.14,inhalant abuse with inhalant-induced mood disorder,mental_health_disorders
+F18.15,inhalant abuse with inhalant-induced psychotic disorder,mental_health_disorders
+F18.150,inhalant abuse with inhalant-induced psychotic disorder with delusions,mental_health_disorders
+F18.151,inhalant abuse with inhalant-induced psychotic disorder with hallucinations,mental_health_disorders
+F18.159,"inhalant abuse with inhalant-induced psychotic disorder, unspecified",mental_health_disorders
+F18.17,inhalant abuse with inhalant-induced dementia,mental_health_disorders
+F18.18,inhalant abuse with other inhalant-induced disorders,mental_health_disorders
+F18.180,inhalant abuse with inhalant-induced anxiety disorder,mental_health_disorders
+F18.188,inhalant abuse with other inhalant-induced disorder,mental_health_disorders
+F18.19,inhalant abuse with unspecified inhalant-induced disorder,mental_health_disorders
+F18.2,inhalant dependence,mental_health_disorders
+F18.20,"inhalant dependence, uncomplicated",mental_health_disorders
+F18.21,"inhalant dependence, in remission",mental_health_disorders
+F18.22,inhalant dependence with intoxication,mental_health_disorders
+F18.220,"inhalant dependence with intoxication, uncomplicated",mental_health_disorders
+F18.221,inhalant dependence with intoxication delirium,mental_health_disorders
+F18.229,"inhalant dependence with intoxication, unspecified",mental_health_disorders
+F18.24,inhalant dependence with inhalant-induced mood disorder,mental_health_disorders
+F18.25,inhalant dependence with inhalant-induced psychotic disorder,mental_health_disorders
+F18.250,inhalant dependence with inhalant-induced psychotic disorder with delusions,mental_health_disorders
+F18.251,inhalant dependence with inhalant-induced psychotic disorder with hallucinations,mental_health_disorders
+F18.259,"inhalant dependence with inhalant-induced psychotic disorder, unspecified",mental_health_disorders
+F18.27,inhalant dependence with inhalant-induced dementia,mental_health_disorders
+F18.28,inhalant dependence with other inhalant-induced disorders,mental_health_disorders
+F18.280,inhalant dependence with inhalant-induced anxiety disorder,mental_health_disorders
+F18.288,inhalant dependence with other inhalant-induced disorder,mental_health_disorders
+F18.29,inhalant dependence with unspecified inhalant-induced disorder,mental_health_disorders
+F18.9,"inhalant use, unspecified",mental_health_disorders
+F18.90,"inhalant use, unspecified, uncomplicated",mental_health_disorders
+F18.91,"inhalant use, unspecified, in remission",mental_health_disorders
+F18.92,"inhalant use, unspecified with intoxication",mental_health_disorders
+F18.920,"inhalant use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F18.921,"inhalant use, unspecified with intoxication with delirium",mental_health_disorders
+F18.929,"inhalant use, unspecified with intoxication, unspecified",mental_health_disorders
+F18.94,"inhalant use, unspecified with inhalant-induced mood disorder",mental_health_disorders
+F18.95,"inhalant use, unspecified with inhalant-induced psychotic disorder",mental_health_disorders
+F18.950,"inhalant use, unspecified with inhalant-induced psychotic disorder with delusions",mental_health_disorders
+F18.951,"inhalant use, unspecified with inhalant-induced psychotic disorder with hallucinations",mental_health_disorders
+F18.959,"inhalant use, unspecified with inhalant-induced psychotic disorder, unspecified",mental_health_disorders
+F18.97,"inhalant use, unspecified with inhalant-induced persisting dementia",mental_health_disorders
+F18.98,"inhalant use, unspecified with other inhalant-induced disorders",mental_health_disorders
+F18.980,"inhalant use, unspecified with inhalant-induced anxiety disorder",mental_health_disorders
+F18.988,"inhalant use, unspecified with other inhalant-induced disorder",mental_health_disorders
+F18.99,"inhalant use, unspecified with unspecified inhalant-induced disorder",mental_health_disorders
+F19,other psychoactive substance related disorders,mental_health_disorders
+F19.1,other psychoactive substance abuse,mental_health_disorders
+F19.10,"other psychoactive substance abuse, uncomplicated",mental_health_disorders
+F19.11,"other psychoactive substance abuse, in remission",mental_health_disorders
+F19.12,other psychoactive substance abuse with intoxication,mental_health_disorders
+F19.120,"other psychoactive substance abuse with intoxication, uncomplicated",mental_health_disorders
+F19.121,other psychoactive substance abuse with intoxication delirium,mental_health_disorders
+F19.122,other psychoactive substance abuse with intoxication with perceptual disturbances,mental_health_disorders
+F19.129,"other psychoactive substance abuse with intoxication, unspecified",mental_health_disorders
+F19.13,other psychoactive substance abuse with withdrawal,mental_health_disorders
+F19.130,"other psychoactive substance abuse with withdrawal, uncomplicated",mental_health_disorders
+F19.131,other psychoactive substance abuse with withdrawal delirium,mental_health_disorders
+F19.132,other psychoactive substance abuse with withdrawal with perceptual disturbance,mental_health_disorders
+F19.139,"other psychoactive substance abuse with withdrawal, unspecified",mental_health_disorders
+F19.14,other psychoactive substance abuse with psychoactive substance-induced mood disorder,mental_health_disorders
+F19.15,other psychoactive substance abuse with psychoactive substance-induced psychotic disorder,mental_health_disorders
+F19.150,other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with delusions,mental_health_disorders
+F19.151,other psychoactive substance abuse with psychoactive substance-induced psychotic disorder with hallucinations,mental_health_disorders
+F19.159,"other psychoactive substance abuse with psychoactive substance-induced psychotic disorder, unspecified",mental_health_disorders
+F19.16,other psychoactive substance abuse with psychoactive substance-induced persisting amnestic disorder,mental_health_disorders
+F19.17,other psychoactive substance abuse with psychoactive substance-induced persisting dementia,mental_health_disorders
+F19.18,other psychoactive substance abuse with other psychoactive substance-induced disorders,mental_health_disorders
+F19.180,other psychoactive substance abuse with psychoactive substance-induced anxiety disorder,mental_health_disorders
+F19.181,other psychoactive substance abuse with psychoactive substance-induced sexual dysfunction,mental_health_disorders
+F19.182,other psychoactive substance abuse with psychoactive substance-induced sleep disorder,mental_health_disorders
+F19.188,other psychoactive substance abuse with other psychoactive substance-induced disorder,mental_health_disorders
+F19.19,other psychoactive substance abuse with unspecified psychoactive substance-induced disorder,mental_health_disorders
+F19.2,other psychoactive substance dependence,mental_health_disorders
+F19.20,"other psychoactive substance dependence, uncomplicated",mental_health_disorders
+F19.21,"other psychoactive substance dependence, in remission",mental_health_disorders
+F19.22,other psychoactive substance dependence with intoxication,mental_health_disorders
+F19.220,"other psychoactive substance dependence with intoxication, uncomplicated",mental_health_disorders
+F19.221,other psychoactive substance dependence with intoxication delirium,mental_health_disorders
+F19.222,other psychoactive substance dependence with intoxication with perceptual disturbance,mental_health_disorders
+F19.229,"other psychoactive substance dependence with intoxication, unspecified",mental_health_disorders
+F19.23,other psychoactive substance dependence with withdrawal,mental_health_disorders
+F19.230,"other psychoactive substance dependence with withdrawal, uncomplicated",mental_health_disorders
+F19.231,other psychoactive substance dependence with withdrawal delirium,mental_health_disorders
+F19.232,other psychoactive substance dependence with withdrawal with perceptual disturbance,mental_health_disorders
+F19.239,"other psychoactive substance dependence with withdrawal, unspecified",mental_health_disorders
+F19.24,other psychoactive substance dependence with psychoactive substance-induced mood disorder,mental_health_disorders
+F19.25,other psychoactive substance dependence with psychoactive substance-induced psychotic disorder,mental_health_disorders
+F19.250,other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with delusions,mental_health_disorders
+F19.251,other psychoactive substance dependence with psychoactive substance-induced psychotic disorder with hallucinations,mental_health_disorders
+F19.259,"other psychoactive substance dependence with psychoactive substance-induced psychotic disorder, unspecified",mental_health_disorders
+F19.26,other psychoactive substance dependence with psychoactive substance-induced persisting amnestic disorder,mental_health_disorders
+F19.27,other psychoactive substance dependence with psychoactive substance-induced persisting dementia,mental_health_disorders
+F19.28,other psychoactive substance dependence with other psychoactive substance-induced disorders,mental_health_disorders
+F19.280,other psychoactive substance dependence with psychoactive substance-induced anxiety disorder,mental_health_disorders
+F19.281,other psychoactive substance dependence with psychoactive substance-induced sexual dysfunction,mental_health_disorders
+F19.282,other psychoactive substance dependence with psychoactive substance-induced sleep disorder,mental_health_disorders
+F19.288,other psychoactive substance dependence with other psychoactive substance-induced disorder,mental_health_disorders
+F19.29,other psychoactive substance dependence with unspecified psychoactive substance-induced disorder,mental_health_disorders
+F19.9,"other psychoactive substance use, unspecified",mental_health_disorders
+F19.90,"other psychoactive substance use, unspecified, uncomplicated",mental_health_disorders
+F19.91,"other psychoactive substance use, unspecified, in remission",mental_health_disorders
+F19.92,"other psychoactive substance use, unspecified with intoxication",mental_health_disorders
+F19.920,"other psychoactive substance use, unspecified with intoxication, uncomplicated",mental_health_disorders
+F19.921,"other psychoactive substance use, unspecified with intoxication with delirium",mental_health_disorders
+F19.922,"other psychoactive substance use, unspecified with intoxication with perceptual disturbance",mental_health_disorders
+F19.929,"other psychoactive substance use, unspecified with intoxication, unspecified",mental_health_disorders
+F19.93,"other psychoactive substance use, unspecified with withdrawal",mental_health_disorders
+F19.930,"other psychoactive substance use, unspecified with withdrawal, uncomplicated",mental_health_disorders
+F19.931,"other psychoactive substance use, unspecified with withdrawal delirium",mental_health_disorders
+F19.932,"other psychoactive substance use, unspecified with withdrawal with perceptual disturbance",mental_health_disorders
+F19.939,"other psychoactive substance use, unspecified with withdrawal, unspecified",mental_health_disorders
+F19.94,"other psychoactive substance use, unspecified with psychoactive substance-induced mood disorder",mental_health_disorders
+F19.95,"other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder",mental_health_disorders
+F19.950,"other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with delusions",mental_health_disorders
+F19.951,"other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder with hallucinations",mental_health_disorders
+F19.959,"other psychoactive substance use, unspecified with psychoactive substance-induced psychotic disorder, unspecified",mental_health_disorders
+F19.96,"other psychoactive substance use, unspecified with psychoactive substance-induced persisting amnestic disorder",mental_health_disorders
+F19.97,"other psychoactive substance use, unspecified with psychoactive substance-induced persisting dementia",mental_health_disorders
+F19.98,"other psychoactive substance use, unspecified with other psychoactive substance-induced disorders",mental_health_disorders
+F19.980,"other psychoactive substance use, unspecified with psychoactive substance-induced anxiety disorder",mental_health_disorders
+F19.981,"other psychoactive substance use, unspecified with psychoactive substance-induced sexual dysfunction",mental_health_disorders
+F19.982,"other psychoactive substance use, unspecified with psychoactive substance-induced sleep disorder",mental_health_disorders
+F19.988,"other psychoactive substance use, unspecified with other psychoactive substance-induced disorder",mental_health_disorders
+F19.99,"other psychoactive substance use, unspecified with unspecified psychoactive substance-induced disorder",mental_health_disorders
+F20,schizophrenia,mental_health_disorders
+F20.0,paranoid schizophrenia,mental_health_disorders
+F20.1,disorganized schizophrenia,mental_health_disorders
+F20.2,catatonic schizophrenia,mental_health_disorders
+F20.3,undifferentiated schizophrenia,mental_health_disorders
+F20.5,residual schizophrenia,mental_health_disorders
+F20.8,other schizophrenia,mental_health_disorders
+F20.81,schizophreniform disorder,mental_health_disorders
+F20.89,other schizophrenia,mental_health_disorders
+F20.9,"schizophrenia, unspecified",mental_health_disorders
+F21,schizotypal disorder,mental_health_disorders
+F22,delusional disorders,mental_health_disorders
+F23,brief psychotic disorder,mental_health_disorders
+F24,shared psychotic disorder,mental_health_disorders
+F25,schizoaffective disorders,mental_health_disorders
+F25.0,"schizoaffective disorder, bipolar type",mental_health_disorders
+F25.1,"schizoaffective disorder, depressive type",mental_health_disorders
+F25.8,other schizoaffective disorders,mental_health_disorders
+F25.9,"schizoaffective disorder, unspecified",mental_health_disorders
+F28,other psychotic disorder not due to a substance or known physiological condition,mental_health_disorders
+F29,unspecified psychosis not due to a substance or known physiological condition,mental_health_disorders
+F30,manic episode,mental_health_disorders
+F30.1,manic episode without psychotic symptoms,mental_health_disorders
+F30.10,"manic episode without psychotic symptoms, unspecified",mental_health_disorders
+F30.11,"manic episode without psychotic symptoms, mild",mental_health_disorders
+F30.12,"manic episode without psychotic symptoms, moderate",mental_health_disorders
+F30.13,"manic episode, severe, without psychotic symptoms",mental_health_disorders
+F30.2,"manic episode, severe with psychotic symptoms",mental_health_disorders
+F30.3,manic episode in partial remission,mental_health_disorders
+F30.4,manic episode in full remission,mental_health_disorders
+F30.8,other manic episodes,mental_health_disorders
+F30.9,"manic episode, unspecified",mental_health_disorders
+F31,bipolar disorder,mental_health_disorders
+F31.0,"bipolar disorder, current episode hypomanic",mental_health_disorders
+F31.1,"bipolar disorder, current episode manic without psychotic features",mental_health_disorders
+F31.10,"bipolar disorder, current episode manic without psychotic features, unspecified",mental_health_disorders
+F31.11,"bipolar disorder, current episode manic without psychotic features, mild",mental_health_disorders
+F31.12,"bipolar disorder, current episode manic without psychotic features, moderate",mental_health_disorders
+F31.13,"bipolar disorder, current episode manic without psychotic features, severe",mental_health_disorders
+F31.2,"bipolar disorder, current episode manic severe with psychotic features",mental_health_disorders
+F31.3,"bipolar disorder, current episode depressed, mild or moderate severity",mental_health_disorders
+F31.30,"bipolar disorder, current episode depressed, mild or moderate severity, unspecified",mental_health_disorders
+F31.31,"bipolar disorder, current episode depressed, mild",mental_health_disorders
+F31.32,"bipolar disorder, current episode depressed, moderate",mental_health_disorders
+F31.4,"bipolar disorder, current episode depressed, severe, without psychotic features",mental_health_disorders
+F31.5,"bipolar disorder, current episode depressed, severe, with psychotic features",mental_health_disorders
+F31.6,"bipolar disorder, current episode mixed",mental_health_disorders
+F31.60,"bipolar disorder, current episode mixed, unspecified",mental_health_disorders
+F31.61,"bipolar disorder, current episode mixed, mild",mental_health_disorders
+F31.62,"bipolar disorder, current episode mixed, moderate",mental_health_disorders
+F31.63,"bipolar disorder, current episode mixed, severe, without psychotic features",mental_health_disorders
+F31.64,"bipolar disorder, current episode mixed, severe, with psychotic features",mental_health_disorders
+F31.7,"bipolar disorder, currently in remission",mental_health_disorders
+F31.70,"bipolar disorder, currently in remission, most recent episode unspecified",mental_health_disorders
+F31.71,"bipolar disorder, in partial remission, most recent episode hypomanic",mental_health_disorders
+F31.72,"bipolar disorder, in full remission, most recent episode hypomanic",mental_health_disorders
+F31.73,"bipolar disorder, in partial remission, most recent episode manic",mental_health_disorders
+F31.74,"bipolar disorder, in full remission, most recent episode manic",mental_health_disorders
+F31.75,"bipolar disorder, in partial remission, most recent episode depressed",mental_health_disorders
+F31.76,"bipolar disorder, in full remission, most recent episode depressed",mental_health_disorders
+F31.77,"bipolar disorder, in partial remission, most recent episode mixed",mental_health_disorders
+F31.78,"bipolar disorder, in full remission, most recent episode mixed",mental_health_disorders
+F31.8,other bipolar disorders,mental_health_disorders
+F31.81,bipolar ii disorder,mental_health_disorders
+F31.89,other bipolar disorder,mental_health_disorders
+F31.9,"bipolar disorder, unspecified",mental_health_disorders
+F32,depressive episode,mental_health_disorders
+F32.0,"major depressive disorder, single episode, mild",mental_health_disorders
+F32.1,"major depressive disorder, single episode, moderate",mental_health_disorders
+F32.2,"major depressive disorder, single episode, severe without psychotic features",mental_health_disorders
+F32.3,"major depressive disorder, single episode, severe with psychotic features",mental_health_disorders
+F32.4,"major depressive disorder, single episode, in partial remission",mental_health_disorders
+F32.5,"major depressive disorder, single episode, in full remission",mental_health_disorders
+F32.8,other depressive episodes,mental_health_disorders
+F32.81,premenstrual dysphoric disorder,mental_health_disorders
+F32.89,other specified depressive episodes,mental_health_disorders
+F32.9,"major depressive disorder, single episode, unspecified",mental_health_disorders
+F32.A,"depression, unspecified",mental_health_disorders
+F33,"major depressive disorder, recurrent",mental_health_disorders
+F33.0,"major depressive disorder, recurrent, mild",mental_health_disorders
+F33.1,"major depressive disorder, recurrent, moderate",mental_health_disorders
+F33.2,"major depressive disorder, recurrent severe without psychotic features",mental_health_disorders
+F33.3,"major depressive disorder, recurrent, severe with psychotic symptoms",mental_health_disorders
+F33.4,"major depressive disorder, recurrent, in remission",mental_health_disorders
+F33.40,"major depressive disorder, recurrent, in remission, unspecified",mental_health_disorders
+F33.41,"major depressive disorder, recurrent, in partial remission",mental_health_disorders
+F33.42,"major depressive disorder, recurrent, in full remission",mental_health_disorders
+F33.8,other recurrent depressive disorders,mental_health_disorders
+F33.9,"major depressive disorder, recurrent, unspecified",mental_health_disorders
+F34,persistent mood [affective] disorders,mental_health_disorders
+F34.0,cyclothymic disorder,mental_health_disorders
+F34.1,dysthymic disorder,mental_health_disorders
+F34.8,other persistent mood [affective] disorders,mental_health_disorders
+F34.81,disruptive mood dysregulation disorder,mental_health_disorders
+F34.89,other specified persistent mood disorders,mental_health_disorders
+F34.9,"persistent mood [affective] disorder, unspecified",mental_health_disorders
+F39,unspecified mood [affective] disorder,mental_health_disorders
+F40,phobic anxiety disorders,mental_health_disorders
+F40.0,agoraphobia,mental_health_disorders
+F40.00,"agoraphobia, unspecified",mental_health_disorders
+F40.01,agoraphobia with panic disorder,mental_health_disorders
+F40.02,agoraphobia without panic disorder,mental_health_disorders
+F40.1,social phobias,mental_health_disorders
+F40.10,"social phobia, unspecified",mental_health_disorders
+F40.11,"social phobia, generalized",mental_health_disorders
+F40.2,specific (isolated) phobias,mental_health_disorders
+F40.21,animal type phobia,mental_health_disorders
+F40.210,arachnophobia,mental_health_disorders
+F40.218,other animal type phobia,mental_health_disorders
+F40.22,natural environment type phobia,mental_health_disorders
+F40.220,fear of thunderstorms,mental_health_disorders
+F40.228,other natural environment type phobia,mental_health_disorders
+F40.23,"blood, injection, injury type phobia",mental_health_disorders
+F40.230,fear of blood,mental_health_disorders
+F40.231,fear of injections and transfusions,mental_health_disorders
+F40.232,fear of other medical care,mental_health_disorders
+F40.233,fear of injury,mental_health_disorders
+F40.24,situational type phobia,mental_health_disorders
+F40.240,claustrophobia,mental_health_disorders
+F40.241,acrophobia,mental_health_disorders
+F40.242,fear of bridges,mental_health_disorders
+F40.243,fear of flying,mental_health_disorders
+F40.248,other situational type phobia,mental_health_disorders
+F40.29,other specified phobia,mental_health_disorders
+F40.290,androphobia,mental_health_disorders
+F40.291,gynephobia,mental_health_disorders
+F40.298,other specified phobia,mental_health_disorders
+F40.8,other phobic anxiety disorders,mental_health_disorders
+F40.9,"phobic anxiety disorder, unspecified",mental_health_disorders
+F41,other anxiety disorders,mental_health_disorders
+F41.0,panic disorder [episodic paroxysmal anxiety],mental_health_disorders
+F41.1,generalized anxiety disorder,mental_health_disorders
+F41.3,other mixed anxiety disorders,mental_health_disorders
+F41.8,other specified anxiety disorders,mental_health_disorders
+F41.9,"anxiety disorder, unspecified",mental_health_disorders
+F42,obsessive-compulsive disorder,mental_health_disorders
+F42.2,mixed obsessional thoughts and acts,mental_health_disorders
+F42.3,hoarding disorder,mental_health_disorders
+F42.4,excoriation (skin-picking) disorder,mental_health_disorders
+F42.8,other obsessive-compulsive disorder,mental_health_disorders
+F42.9,"obsessive-compulsive disorder, unspecified",mental_health_disorders
+F43,"reaction to severe stress, and adjustment disorders",mental_health_disorders
+F43.0,acute stress reaction,mental_health_disorders
+F43.1,post-traumatic stress disorder (ptsd),mental_health_disorders
+F43.10,"post-traumatic stress disorder, unspecified",mental_health_disorders
+F43.11,"post-traumatic stress disorder, acute",mental_health_disorders
+F43.12,"post-traumatic stress disorder, chronic",mental_health_disorders
+F43.2,adjustment disorders,mental_health_disorders
+F43.20,"adjustment disorder, unspecified",mental_health_disorders
+F43.21,adjustment disorder with depressed mood,mental_health_disorders
+F43.22,adjustment disorder with anxiety,mental_health_disorders
+F43.23,adjustment disorder with mixed anxiety and depressed mood,mental_health_disorders
+F43.24,adjustment disorder with disturbance of conduct,mental_health_disorders
+F43.25,adjustment disorder with mixed disturbance of emotions and conduct,mental_health_disorders
+F43.29,adjustment disorder with other symptoms,mental_health_disorders
+F43.8,other reactions to severe stress,mental_health_disorders
+F43.81,prolonged grief disorder,mental_health_disorders
+F43.89,other reactions to severe stress,mental_health_disorders
+F43.9,"reaction to severe stress, unspecified",mental_health_disorders
+F44,dissociative and conversion disorders,mental_health_disorders
+F44.0,dissociative amnesia,mental_health_disorders
+F44.1,dissociative fugue,mental_health_disorders
+F44.2,dissociative stupor,mental_health_disorders
+F44.4,conversion disorder with motor symptom or deficit,mental_health_disorders
+F44.5,conversion disorder with seizures or convulsions,mental_health_disorders
+F44.6,conversion disorder with sensory symptom or deficit,mental_health_disorders
+F44.7,conversion disorder with mixed symptom presentation,mental_health_disorders
+F44.8,other dissociative and conversion disorders,mental_health_disorders
+F44.81,dissociative identity disorder,mental_health_disorders
+F44.89,other dissociative and conversion disorders,mental_health_disorders
+F44.9,"dissociative and conversion disorder, unspecified",mental_health_disorders
+F45,somatoform disorders,mental_health_disorders
+F45.0,somatization disorder,mental_health_disorders
+F45.1,undifferentiated somatoform disorder,mental_health_disorders
+F45.2,hypochondriacal disorders,mental_health_disorders
+F45.20,"hypochondriacal disorder, unspecified",mental_health_disorders
+F45.21,hypochondriasis,mental_health_disorders
+F45.22,body dysmorphic disorder,mental_health_disorders
+F45.29,other hypochondriacal disorders,mental_health_disorders
+F45.4,pain disorders related to psychological factors,mental_health_disorders
+F45.41,pain disorder exclusively related to psychological factors,mental_health_disorders
+F45.42,pain disorder with related psychological factors,mental_health_disorders
+F45.8,other somatoform disorders,mental_health_disorders
+F45.9,"somatoform disorder, unspecified",mental_health_disorders
+F48,other nonpsychotic mental disorders,mental_health_disorders
+F48.1,depersonalization-derealization syndrome,mental_health_disorders
+F48.2,pseudobulbar affect,mental_health_disorders
+F48.8,other specified nonpsychotic mental disorders,mental_health_disorders
+F48.9,"nonpsychotic mental disorder, unspecified",mental_health_disorders

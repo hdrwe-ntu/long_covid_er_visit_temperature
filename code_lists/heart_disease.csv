@@ -1,0 +1,325 @@
+ICD.10,eng,Category
+I05,rheumatic mitral valve diseases,heart_disease
+I05.0,rheumatic mitral stenosis,heart_disease
+I05.1,rheumatic mitral insufficiency,heart_disease
+I05.2,rheumatic mitral stenosis with insufficiency,heart_disease
+I05.8,other rheumatic mitral valve diseases,heart_disease
+I05.9,"rheumatic mitral valve disease, unspecified",heart_disease
+I06,rheumatic aortic valve diseases,heart_disease
+I06.0,rheumatic aortic stenosis,heart_disease
+I06.1,rheumatic aortic insufficiency,heart_disease
+I06.2,rheumatic aortic stenosis with insufficiency,heart_disease
+I06.8,other rheumatic aortic valve diseases,heart_disease
+I06.9,"rheumatic aortic valve disease, unspecified",heart_disease
+I07,rheumatic tricuspid valve diseases,heart_disease
+I07.0,rheumatic tricuspid stenosis,heart_disease
+I07.1,rheumatic tricuspid insufficiency,heart_disease
+I07.2,rheumatic tricuspid stenosis and insufficiency,heart_disease
+I07.8,other rheumatic tricuspid valve diseases,heart_disease
+I07.9,"rheumatic tricuspid valve disease, unspecified",heart_disease
+I08,multiple valve diseases,heart_disease
+I08.0,rheumatic disorders of both mitral and aortic valves,heart_disease
+I08.1,rheumatic disorders of both mitral and tricuspid valves,heart_disease
+I08.2,rheumatic disorders of both aortic and tricuspid valves,heart_disease
+I08.3,"combined rheumatic disorders of mitral, aortic and tricuspid valves",heart_disease
+I08.8,other rheumatic multiple valve diseases,heart_disease
+I08.9,"rheumatic multiple valve disease, unspecified",heart_disease
+I09,other rheumatic heart diseases,heart_disease
+I09.0,rheumatic myocarditis,heart_disease
+I09.1,"rheumatic diseases of endocardium, valve unspecified",heart_disease
+I09.2,chronic rheumatic pericarditis,heart_disease
+I09.8,other specified rheumatic heart diseases,heart_disease
+I09.81,rheumatic heart failure,heart_disease
+I09.89,other specified rheumatic heart diseases,heart_disease
+I09.9,"rheumatic heart disease, unspecified",heart_disease
+I20,angina pectoris,heart_disease
+I20.0,unstable angina,heart_disease
+I20.1,angina pectoris with documented spasm,heart_disease
+I20.2,refractory angina pectoris,heart_disease
+I20.8,other forms of angina pectoris,heart_disease
+I20.9,"angina pectoris, unspecified",heart_disease
+I21,acute myocardial infarction,heart_disease
+I21.0,st elevation (stemi) myocardial infarction of anterior wall,heart_disease
+I21.01,st elevation (stemi) myocardial infarction involving left main coronary artery,heart_disease
+I21.02,st elevation (stemi) myocardial infarction involving left anterior descending coronary artery,heart_disease
+I21.09,st elevation (stemi) myocardial infarction involving other coronary artery of anterior wall,heart_disease
+I21.1,st elevation (stemi) myocardial infarction of inferior wall,heart_disease
+I21.11,st elevation (stemi) myocardial infarction involving right coronary artery,heart_disease
+I21.19,st elevation (stemi) myocardial infarction involving other coronary artery of inferior wall,heart_disease
+I21.2,st elevation (stemi) myocardial infarction of other sites,heart_disease
+I21.21,st elevation (stemi) myocardial infarction involving left circumflex coronary artery,heart_disease
+I21.29,st elevation (stemi) myocardial infarction involving other sites,heart_disease
+I21.3,st elevation (stemi) myocardial infarction of unspecified site,heart_disease
+I21.4,non-st elevation (nstemi) myocardial infarction,heart_disease
+I21.9,"acute myocardial infarction, unspecified",heart_disease
+I21.A,other type of myocardial infarction,heart_disease
+I21.A1,myocardial infarction type 2,heart_disease
+I21.A9,other myocardial infarction type,heart_disease
+I22,subsequent st elevation (stemi) and non-st elevation (nstemi) myocardial infarction,heart_disease
+I22.0,subsequent st elevation (stemi) myocardial infarction of anterior wall,heart_disease
+I22.1,subsequent st elevation (stemi) myocardial infarction of inferior wall,heart_disease
+I22.2,subsequent non-st elevation (nstemi) myocardial infarction,heart_disease
+I22.8,subsequent st elevation (stemi) myocardial infarction of other sites,heart_disease
+I22.9,subsequent st elevation (stemi) myocardial infarction of unspecified site,heart_disease
+I23,certain current complications following st elevation (stemi) and non-st elevation (nstemi) myocardial infarction (within the 28 day period),heart_disease
+I23.0,hemopericardium as current complication following acute myocardial infarction,heart_disease
+I23.1,atrial septal defect as current complication following acute myocardial infarction,heart_disease
+I23.2,ventricular septal defect as current complication following acute myocardial infarction,heart_disease
+I23.3,rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction,heart_disease
+I23.4,rupture of chordae tendineae as current complication following acute myocardial infarction,heart_disease
+I23.5,rupture of papillary muscle as current complication following acute myocardial infarction,heart_disease
+I23.6,"thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction",heart_disease
+I23.7,postinfarction angina,heart_disease
+I23.8,other current complications following acute myocardial infarction,heart_disease
+I24,other acute ischemic heart diseases,heart_disease
+I24.1,dressler's syndrome,heart_disease
+I24.8,other forms of acute ischemic heart disease,heart_disease
+I24.9,"acute ischemic heart disease, unspecified",heart_disease
+I25,chronic ischemic heart disease,heart_disease
+I25.1,atherosclerotic heart disease of native coronary artery,heart_disease
+I25.10,atherosclerotic heart disease of native coronary artery without angina pectoris,heart_disease
+I25.11,atherosclerotic heart disease of native coronary artery with angina pectoris,heart_disease
+I25.110,atherosclerotic heart disease of native coronary artery with unstable angina pectoris,heart_disease
+I25.111,atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm,heart_disease
+I25.112,atherosclerosic heart disease of native coronary artery with refractory angina pectoris,heart_disease
+I25.118,atherosclerotic heart disease of native coronary artery with other forms of angina pectoris,heart_disease
+I25.119,atherosclerotic heart disease of native coronary artery with unspecified angina pectoris,heart_disease
+I25.2,old myocardial infarction,heart_disease
+I25.3,aneurysm of heart,heart_disease
+I25.4,coronary artery aneurysm and dissection,heart_disease
+I25.41,coronary artery aneurysm,heart_disease
+I25.42,coronary artery dissection,heart_disease
+I25.5,ischemic cardiomyopathy,heart_disease
+I25.6,silent myocardial ischemia,heart_disease
+I25.7,atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris,heart_disease
+I25.70,"atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris",heart_disease
+I25.700,"atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris",heart_disease
+I25.701,"atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm",heart_disease
+I25.702,"atherosclerosis of coronary artery bypass graft(s), unspecified, with refractory angina pectoris",heart_disease
+I25.708,"atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris",heart_disease
+I25.709,"atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris",heart_disease
+I25.71,atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris,heart_disease
+I25.710,atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris,heart_disease
+I25.711,atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm,heart_disease
+I25.712,atherosclerosis of autologous vein coronary artery bypass graft(s) with refractory angina pectoris,heart_disease
+I25.718,atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris,heart_disease
+I25.719,atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris,heart_disease
+I25.72,atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris,heart_disease
+I25.720,atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris,heart_disease
+I25.721,atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with documented spasm,heart_disease
+I25.722,atherosclerosis of autologous artery coronary artery bypass graft(s) with refractory angina pectoris,heart_disease
+I25.728,atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris,heart_disease
+I25.729,atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris,heart_disease
+I25.73,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris,heart_disease
+I25.730,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris,heart_disease
+I25.731,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris with documented spasm,heart_disease
+I25.732,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with refractory angina pectoris,heart_disease
+I25.738,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris,heart_disease
+I25.739,atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris,heart_disease
+I25.75,atherosclerosis of native coronary artery of transplanted heart with angina pectoris,heart_disease
+I25.750,atherosclerosis of native coronary artery of transplanted heart with unstable angina,heart_disease
+I25.751,atherosclerosis of native coronary artery of transplanted heart with angina pectoris with documented spasm,heart_disease
+I25.752,atherosclerosis of native coronary artery of transplanted heart with refractory angina pectoris,heart_disease
+I25.758,atherosclerosis of native coronary artery of transplanted heart with other forms of angina pectoris,heart_disease
+I25.759,atherosclerosis of native coronary artery of transplanted heart with unspecified angina pectoris,heart_disease
+I25.76,atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris,heart_disease
+I25.760,atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina,heart_disease
+I25.761,atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris with documented spasm,heart_disease
+I25.762,atherosclerosis of bypass graft of coronary artery of transplanted heart with refractory angina pectoris,heart_disease
+I25.768,atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of angina pectoris,heart_disease
+I25.769,atherosclerosis of bypass graft of coronary artery of transplanted heart with unspecified angina pectoris,heart_disease
+I25.79,atherosclerosis of other coronary artery bypass graft(s) with angina pectoris,heart_disease
+I25.790,atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris,heart_disease
+I25.791,atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm,heart_disease
+I25.792,atherosclerosis of other coronary artery bypass graft(s) with refractory angina pectoris,heart_disease
+I25.798,atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris,heart_disease
+I25.799,atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris,heart_disease
+I25.8,other forms of chronic ischemic heart disease,heart_disease
+I25.81,atherosclerosis of other coronary vessels without angina pectoris,heart_disease
+I25.810,atherosclerosis of coronary artery bypass graft(s) without angina pectoris,heart_disease
+I25.811,atherosclerosis of native coronary artery of transplanted heart without angina pectoris,heart_disease
+I25.812,atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris,heart_disease
+I25.82,chronic total occlusion of coronary artery,heart_disease
+I25.83,coronary atherosclerosis due to lipid rich plaque,heart_disease
+I25.84,coronary atherosclerosis due to calcified coronary lesion,heart_disease
+I25.89,other forms of chronic ischemic heart disease,heart_disease
+I25.9,"chronic ischemic heart disease, unspecified",heart_disease
+I26,pulmonary embolism,heart_disease
+I26.0,pulmonary embolism with acute cor pulmonale,heart_disease
+I26.01,septic pulmonary embolism with acute cor pulmonale,heart_disease
+I26.02,saddle embolus of pulmonary artery with acute cor pulmonale,heart_disease
+I26.09,other pulmonary embolism with acute cor pulmonale,heart_disease
+I26.9,pulmonary embolism without acute cor pulmonale,heart_disease
+I26.90,septic pulmonary embolism without acute cor pulmonale,heart_disease
+I26.92,saddle embolus of pulmonary artery without acute cor pulmonale,heart_disease
+I26.93,single subsegmental pulmonary embolism without acute cor pulmonale,heart_disease
+I26.94,multiple subsegmental pulmonary emboli without acute cor pulmonale,heart_disease
+I26.99,other pulmonary embolism without acute cor pulmonale,heart_disease
+I27,other pulmonary heart diseases,heart_disease
+I27.0,primary pulmonary hypertension,heart_disease
+I27.1,kyphoscoliotic heart disease,heart_disease
+I27.2,other secondary pulmonary hypertension,heart_disease
+I27.20,"pulmonary hypertension, unspecified",heart_disease
+I27.21,secondary pulmonary arterial hypertension,heart_disease
+I27.22,pulmonary hypertension due to left heart disease,heart_disease
+I27.23,pulmonary hypertension due to lung diseases and hypoxia,heart_disease
+I27.24,chronic thromboembolic pulmonary hypertension,heart_disease
+I27.29,other secondary pulmonary hypertension,heart_disease
+I27.8,other specified pulmonary heart diseases,heart_disease
+I27.81,cor pulmonale (chronic),heart_disease
+I27.82,chronic pulmonary embolism,heart_disease
+I27.83,eisenmenger's syndrome,heart_disease
+I27.89,other specified pulmonary heart diseases,heart_disease
+I27.9,"pulmonary heart disease, unspecified",heart_disease
+I28,other diseases of pulmonary vessels,heart_disease
+I28.0,arteriovenous fistula of pulmonary vessels,heart_disease
+I28.1,aneurysm of pulmonary artery,heart_disease
+I28.8,other diseases of pulmonary vessels,heart_disease
+I28.9,"disease of pulmonary vessels, unspecified",heart_disease
+I34,nonrheumatic mitral valve disorders,heart_disease
+I34.0,nonrheumatic mitral (valve) insufficiency,heart_disease
+I34.1,nonrheumatic mitral (valve) prolapse,heart_disease
+I34.2,nonrheumatic mitral (valve) stenosis,heart_disease
+I34.8,other nonrheumatic mitral valve disorders,heart_disease
+I34.81,nonrheumatic mitral (valve) annulus calcification,heart_disease
+I34.89,other nonrheumatic mitral valve disorders,heart_disease
+I34.9,"nonrheumatic mitral valve disorder, unspecified",heart_disease
+I35,nonrheumatic aortic valve disorders,heart_disease
+I35.0,nonrheumatic aortic (valve) stenosis,heart_disease
+I35.1,nonrheumatic aortic (valve) insufficiency,heart_disease
+I35.2,nonrheumatic aortic (valve) stenosis with insufficiency,heart_disease
+I35.8,other nonrheumatic aortic valve disorders,heart_disease
+I35.9,"nonrheumatic aortic valve disorder, unspecified",heart_disease
+I36,nonrheumatic tricuspid valve disorders,heart_disease
+I36.0,nonrheumatic tricuspid (valve) stenosis,heart_disease
+I36.1,nonrheumatic tricuspid (valve) insufficiency,heart_disease
+I36.2,nonrheumatic tricuspid (valve) stenosis with insufficiency,heart_disease
+I36.8,other nonrheumatic tricuspid valve disorders,heart_disease
+I36.9,"nonrheumatic tricuspid valve disorder, unspecified",heart_disease
+I37,nonrheumatic pulmonary valve disorders,heart_disease
+I37.0,nonrheumatic pulmonary valve stenosis,heart_disease
+I37.1,nonrheumatic pulmonary valve insufficiency,heart_disease
+I37.2,nonrheumatic pulmonary valve stenosis with insufficiency,heart_disease
+I37.8,other nonrheumatic pulmonary valve disorders,heart_disease
+I37.9,"nonrheumatic pulmonary valve disorder, unspecified",heart_disease
+I42,cardiomyopathy,heart_disease
+I42.0,dilated cardiomyopathy,heart_disease
+I42.1,obstructive hypertrophic cardiomyopathy,heart_disease
+I42.2,other hypertrophic cardiomyopathy,heart_disease
+I42.3,endomyocardial (eosinophilic) disease,heart_disease
+I42.4,endocardial fibroelastosis,heart_disease
+I42.5,other restrictive cardiomyopathy,heart_disease
+I42.6,alcoholic cardiomyopathy,heart_disease
+I42.7,cardiomyopathy due to drug and external agent,heart_disease
+I42.8,other cardiomyopathies,heart_disease
+I42.9,"cardiomyopathy, unspecified",heart_disease
+I44,atrioventricular and left bundle-branch block,heart_disease
+I44.0,"atrioventricular block, first degree",heart_disease
+I44.1,"atrioventricular block, second degree",heart_disease
+I44.2,"atrioventricular block, complete",heart_disease
+I44.3,other and unspecified atrioventricular block,heart_disease
+I44.30,unspecified atrioventricular block,heart_disease
+I44.39,other atrioventricular block,heart_disease
+I44.4,left anterior fascicular block,heart_disease
+I44.5,left posterior fascicular block,heart_disease
+I44.6,other and unspecified fascicular block,heart_disease
+I44.60,unspecified fascicular block,heart_disease
+I44.69,other fascicular block,heart_disease
+I44.7,"left bundle-branch block, unspecified",heart_disease
+I45,other conduction disorders,heart_disease
+I45.0,right fascicular block,heart_disease
+I45.1,other and unspecified right bundle-branch block,heart_disease
+I45.10,unspecified right bundle-branch block,heart_disease
+I45.19,other right bundle-branch block,heart_disease
+I45.2,bifascicular block,heart_disease
+I45.3,trifascicular block,heart_disease
+I45.4,nonspecific intraventricular block,heart_disease
+I45.5,other specified heart block,heart_disease
+I45.6,pre-excitation syndrome,heart_disease
+I45.8,other specified conduction disorders,heart_disease
+I45.81,long qt syndrome,heart_disease
+I45.89,other specified conduction disorders,heart_disease
+I45.9,"conduction disorder, unspecified",heart_disease
+I46,cardiac arrest,heart_disease
+I46.2,cardiac arrest due to underlying cardiac condition,heart_disease
+I46.8,cardiac arrest due to other underlying condition,heart_disease
+I46.9,"cardiac arrest, cause unspecified",heart_disease
+I47,paroxysmal tachycardia,heart_disease
+I47.0,re-entry ventricular arrhythmia,heart_disease
+I47.1,supraventricular tachycardia,heart_disease
+I47.2,ventricular tachycardia,heart_disease
+I47.20,"ventricular tachycardia, unspecified",heart_disease
+I47.21,torsades de pointes,heart_disease
+I47.29,other ventricular tachycardia,heart_disease
+I47.9,"paroxysmal tachycardia, unspecified",heart_disease
+I48,atrial fibrillation and flutter,heart_disease
+I48.0,paroxysmal atrial fibrillation,heart_disease
+I48.1,persistent atrial fibrillation,heart_disease
+I48.11,longstanding persistent atrial fibrillation,heart_disease
+I48.19,other persistent atrial fibrillation,heart_disease
+I48.2,chronic atrial fibrillation,heart_disease
+I48.20,"chronic atrial fibrillation, unspecified",heart_disease
+I48.21,permanent atrial fibrillation,heart_disease
+I48.3,typical atrial flutter,heart_disease
+I48.4,atypical atrial flutter,heart_disease
+I48.9,unspecified atrial fibrillation and atrial flutter,heart_disease
+I48.91,unspecified atrial fibrillation,heart_disease
+I48.92,unspecified atrial flutter,heart_disease
+I49,other cardiac arrhythmias,heart_disease
+I49.0,ventricular fibrillation and flutter,heart_disease
+I49.01,ventricular fibrillation,heart_disease
+I49.02,ventricular flutter,heart_disease
+I49.1,atrial premature depolarization,heart_disease
+I49.2,junctional premature depolarization,heart_disease
+I49.3,ventricular premature depolarization,heart_disease
+I49.4,other and unspecified premature depolarization,heart_disease
+I49.40,unspecified premature depolarization,heart_disease
+I49.49,other premature depolarization,heart_disease
+I49.5,sick sinus syndrome,heart_disease
+I49.8,other specified cardiac arrhythmias,heart_disease
+I49.9,"cardiac arrhythmia, unspecified",heart_disease
+I50,heart failure,heart_disease
+I50.1,"left ventricular failure, unspecified",heart_disease
+I50.2,systolic (congestive) heart failure,heart_disease
+I50.20,unspecified systolic (congestive) heart failure,heart_disease
+I50.21,acute systolic (congestive) heart failure,heart_disease
+I50.22,chronic systolic (congestive) heart failure,heart_disease
+I50.23,acute on chronic systolic (congestive) heart failure,heart_disease
+I50.3,diastolic (congestive) heart failure,heart_disease
+I50.30,unspecified diastolic (congestive) heart failure,heart_disease
+I50.31,acute diastolic (congestive) heart failure,heart_disease
+I50.32,chronic diastolic (congestive) heart failure,heart_disease
+I50.33,acute on chronic diastolic (congestive) heart failure,heart_disease
+I50.4,combined systolic (congestive) and diastolic (congestive) heart failure,heart_disease
+I50.40,unspecified combined systolic (congestive) and diastolic (congestive) heart failure,heart_disease
+I50.41,acute combined systolic (congestive) and diastolic (congestive) heart failure,heart_disease
+I50.42,chronic combined systolic (congestive) and diastolic (congestive) heart failure,heart_disease
+I50.43,acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure,heart_disease
+I50.8,other heart failure,heart_disease
+I50.81,right heart failure,heart_disease
+I50.810,"right heart failure, unspecified",heart_disease
+I50.811,acute right heart failure,heart_disease
+I50.812,chronic right heart failure,heart_disease
+I50.813,acute on chronic right heart failure,heart_disease
+I50.814,right heart failure due to left heart failure,heart_disease
+I50.82,biventricular heart failure,heart_disease
+I50.83,high output heart failure,heart_disease
+I50.84,end stage heart failure,heart_disease
+I50.89,other heart failure,heart_disease
+I50.9,"heart failure, unspecified",heart_disease
+I11.0,hypertensive heart disease with heart failure,heart_disease
+I13.0,"hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease",heart_disease
+I13.2,"hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease",heart_disease
+I43,cardiomyopathy in diseases classified elsewhere,heart_disease
+Q22,congenital malformations of pulmonary and tricuspid valves,heart_disease
+Q22.0,pulmonary valve atresia,heart_disease
+Q22.1,congenital pulmonary valve stenosis,heart_disease
+Q22.2,congenital pulmonary valve insufficiency,heart_disease
+Q22.3,other congenital malformations of pulmonary valve,heart_disease
+Q22.8,other congenital malformations of tricuspid valve,heart_disease
+Q22.9,"congenital malformation of tricuspid valve, unspecified",heart_disease
+Q23,congenital malformations of aortic and mitral valves,heart_disease
+Q23.0,congenital stenosis of aortic valve,heart_disease
+Q23.1,congenital insufficiency of aortic valve,heart_disease
+Q23.8,other congenital malformations of aortic and mitral valves,heart_disease
+Q23.9,"congenital malformation of aortic and mitral valves, unspecified",heart_disease
