@@ -1,0 +1,1 @@
+# long_covid_er_visit_temperature
