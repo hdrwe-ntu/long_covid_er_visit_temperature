@@ -1,1 +1,1 @@
-# long_covid_er_visit_temperature
+# The association between temperature and ER visits among people with long COVID
