@@ -9,22 +9,22 @@ library(tidyr)
 
 # --- 1. Load and Combine All Six Datasets ---
 # Read each file and explicitly add a 'Metric' column to identify the grid panel
-df_max <- read.csv("temperature_results/Historical_visit_daily_maximum_temperature.csv", check.names = FALSE) %>% 
+df_max <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/daily_maximum_temperature.csv", check.names = FALSE) %>% 
       mutate(Metric = "Max Daily Temperature")
 
-df_mean <- read.csv("temperature_results/Historical_visit_daily_mean_temperature.csv", check.names = FALSE) %>% 
+df_mean <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/daily_mean_temperature.csv", check.names = FALSE) %>% 
       mutate(Metric = "Mean Daily Temperature")
 
-df_min <- read.csv("temperature_results/Historical_visit_daily_minimum_temperature.csv", check.names = FALSE) %>% 
+df_min <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/daily_minimum_temperature.csv", check.names = FALSE) %>% 
       mutate(Metric = "Minimum Daily Temperature")
 
-df_diurnal <- read.csv("temperature_results/Historical_visit_diurnal_temperature_range.csv", check.names = FALSE) %>% 
+df_diurnal <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/diurnal_temperature_range.csv", check.names = FALSE) %>% 
       mutate(Metric = "Diurnal Temperature Range")
 
-df_increase <- read.csv("temperature_results/Historical_visit_sudden_day_to_day_temperature_decrease.csv", check.names = FALSE) %>% 
+df_increase <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/sudden_day_to_day_temperature_increase.csv", check.names = FALSE) %>% 
       mutate(Metric = "Sudden Day-to-Day Increase")
 
-df_decrease <- read.csv("temperature_results/Historical_visit_sudden_day_to_day_temperature_increase.csv", check.names = FALSE) %>% 
+df_decrease <- read.csv("output_visualisation/temperature_results/Main_Table2_Historical _Visit/sudden_day_to_day_temperature_decrease.csv", check.names = FALSE) %>% 
       mutate(Metric = "Sudden Day-to-Day Decrease")
 
 # Bind them all into one massive dataframe
@@ -119,4 +119,4 @@ forest_plot_6grid_his <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons))
 # Display the dashboard
 print(forest_plot_6grid_his)
 ggsave("historical_forest_plot.svg", 
-       plot = forest_plot_6grid, width = 8, height = 12, dpi = 300)
+       plot = forest_plot_6grid_his, width = 8, height = 12, dpi = 300)
