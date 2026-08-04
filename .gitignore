@@ -52,3 +52,6 @@ rsconnect/
 # Data files
 *.csv
 *.svg
+*.png
+*.jpeg
+*.pdf
