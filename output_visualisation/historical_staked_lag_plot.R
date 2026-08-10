@@ -37,9 +37,8 @@ df_main_his <- df_master_main_his %>%
             Seasons = factor(Seasons, levels = c("Overall Seasons", "Hot Seasons (May-Oct)", "Not hot (Nov-Apr)")),
             # Order the 6 grid panels logically (Row 1: Absolute temps, Row 2: Variations)
             Metric = factor(Metric, levels = c(
-                  "Mean Daily Temperature", "Max Daily Temperature", "Minimum Daily Temperature",
-                  "Diurnal Temperature Range", "Sudden Day-to-Day Increase", "Sudden Day-to-Day Decrease"
-            ))
+                  "Mean Daily Temperature", "Max Daily Temperature", "Minimum Daily Temperature"
+           ))
       )
 
 
@@ -52,8 +51,7 @@ df_add_his<- df_master_add_his %>%
             Seasons = factor(Seasons, levels = c("Overall Seasons", "Hot Seasons (May-Oct)", "Not hot (Nov-Apr)")),
             # Order the 6 grid panels logically (Row 1: Absolute temps, Row 2: Variations)
             Metric = factor(Metric, levels = c(
-                  "Mean Daily Temperature", "Max Daily Temperature", "Minimum Daily Temperature",
-                  "Diurnal Temperature Range", "Sudden Day-to-Day Increase", "Sudden Day-to-Day Decrease"
+                 "Diurnal Temperature Range", "Sudden Day-to-Day Increase", "Sudden Day-to-Day Decrease"
             ))
       )
 
@@ -92,7 +90,7 @@ forestplot_his_fn <- function(df, title){
       scale_color_manual(values = google_palette) +
       
       # THE MAGIC: Facet into a 2x3 Grid
-      facet_wrap(~ Metric, ncol = 2) +
+      facet_wrap(~ Metric, ncol = 3) +
       
       # Labels
       labs(
@@ -130,65 +128,12 @@ forestplot_his_fn <- function(df, title){
       )
 }
 
-# 
-forest_plot_6grid_his <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
-      # Null reference line
-      geom_vline(xintercept = 1, linetype = "dashed", color = google_palette["null_red"], linewidth = 0.8) +
-      
-      # Error bars (dodged)
-      geom_errorbarh(
-            aes(xmin = lower, xmax = upper), 
-            height = 0.4, 
-            position = position_dodge(width = 0.6), 
-            linewidth = 0.9
-      ) +
-      
-      # Point estimates (dodged)
-      geom_point(
-            position = position_dodge(width = 0.6), 
-            size = 2
-      ) +
-      
-      # Apply colors
-      scale_color_manual(values = google_palette) +
-      
-      # THE MAGIC: Facet into a 2x3 Grid
-      facet_wrap(~ Metric, ncol = 2) +
-      
-      # Labels
-      labs(
-            x = "Odds Ratio (OR) and 95% CI",
-            y = "Lag Days", 
-            title = "Historical Comparison"
-      ) +
-      
-      # Custom Theme
-      theme_minimal(base_family = "sans") +
-      theme(
-            text = element_text(color = google_palette["text_gray"]),
-            plot.title = element_text(face = "bold", size = 16, margin = margin(b = 20)),
-            axis.title.x = element_text(face = "bold", margin = margin(t = 12)),
-            axis.title.y = element_text(face = "bold", margin = margin(r = 12)),
-            axis.text = element_text(color = google_palette["text_gray"]),
-            
-            # Facet Header (Strip) Customization
-            strip.text = element_text(face = "bold", size = 11, color = google_palette["text_gray"], margin = margin(t = 8, b = 8)),
-            strip.background = element_rect(fill = google_palette["strip_bg"], color = NA),
-            panel.spacing = unit(1.5, "lines"), # Add breathing room between grids
-            
-            # Grid lines
-            panel.grid.major.x = element_line(color = google_palette["grid_gray"]),
-            panel.grid.minor.x = element_blank(),
-            panel.grid.major.y = element_line(color = google_palette["grid_gray"], linetype = "dotted"),
-            
-            # Legend
-            legend.position = "bottom",
-            legend.title = element_blank(),
-            legend.text = element_text(size = 11, margin = margin(r = 15)),
-            
-            # Margins
-            plot.margin = margin(20, 20, 20, 20)
-      )
+# 5. Plot main historical analyses----
+# Historical main analysis:
+forest_main_his <- forestplot_his_fn(df_main_his, "Historical Comparison")
+# Historical additional analysis: 
+forest_add_his <- forestplot_his_fn(df_add_his,"Additional Analyses: Historical Comparison")
+
 
 # Display the dashboard
 print(forest_plot_6grid_his)
