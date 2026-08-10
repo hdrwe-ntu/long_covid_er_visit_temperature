@@ -1,13 +1,10 @@
-# ==============================================================================
-# Facetted Forest Plot Dashboard
-# ==============================================================================
 
 # Load required libraries
 library(ggplot2)
 library(dplyr)
 library(tidyr)
 
-# --- 1. Load and Combine All Six Datasets ---
+# --- 1. Load and Combine All Six Datasets ----
 # Read each file and explicitly add a 'Metric' column to identify the grid panel
 df_max <- read.csv("output_visualisation/temperature_results/Main_Table2_Contemporary_Visit/daily_maximum_temperature.csv", check.names = FALSE) %>% 
       mutate(Metric = "Max Daily Temperature")
@@ -28,10 +25,10 @@ df_decrease <- read.csv("output_visualisation/temperature_results/Main_Table2_Co
       mutate(Metric = "Sudden Day-to-Day Decrease")
 
 # Bind them all into one massive dataframe
-df_master <- bind_rows(df_mean, df_max, df_min)
-df_additional <- bind_rows(df_diurnal, df_increase, df_decrease)
+df_master <- bind_rows(df_mean, df_max, df_min) # main analysis 
+df_additional <- bind_rows(df_diurnal, df_increase, df_decrease) # additional analysis
 
-# --- 2. Data Cleaning & Factor Ordering ---
+# --- 2. Data Cleaning & Factor Ordering (main analysis)----
 df_clean <- df_master %>%
       # Parse the confidence intervals
       mutate(
@@ -41,12 +38,11 @@ df_clean <- df_master %>%
             Seasons = factor(Seasons, levels = c("Overall Seasons", "Hot Seasons (May-Oct)", "Not hot (Nov-Apr)")),
             # Order the 6 grid panels logically (Row 1: Absolute temps, Row 2: Variations)
             Metric = factor(Metric, levels = c(
-                  "Mean Daily Temperature", "Max Daily Temperature", "Minimum Daily Temperature",
-                  "Diurnal Temperature Range", "Sudden Day-to-Day Increase", "Sudden Day-to-Day Decrease"
+                  "Mean Daily Temperature", "Max Daily Temperature", "Minimum Daily Temperature"
             ))
       )
 
-# --- 3. Define Google Style Colors ---
+# --- 3. Define Google Style Colors ----
 google_palette <- c(
       "Overall Seasons"       = "#4285F4", # Google Blue
       "Hot Seasons (May-Oct)" = "#34A853", # Google Green
@@ -57,67 +53,95 @@ google_palette <- c(
       "strip_bg"              = "#E8EAED"  # Google Gray (for facet headers)
 )
 
-# --- 4. Generate the Facetted Forest Plot ---
-forest_plot_grid_main_analysis <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
-      # Null reference line
-      geom_vline(xintercept = 1, linetype = "dashed", color = google_palette["null_red"], linewidth = 0.8) +
-      
-      # Error bars (dodged)
-      geom_errorbarh(
-            aes(xmin = lower, xmax = upper), 
-            height = 0.4, 
-            position = position_dodge(width = 0.6), 
-            linewidth = 0.9
-      ) +
-      
-      # Point estimates (dodged)
-      geom_point(
-            position = position_dodge(width = 0.6), 
-            size = 2
-      ) +
-      
-      # Apply colors
-      scale_color_manual(values = google_palette) +
-      
-      # THE MAGIC: Facet into a 2x3 Grid
-      facet_wrap(~ Metric, ncol = 3) +
-      
-      # Labels
-      labs(
-            x = "Odds Ratio (OR) and 95% CI",
-            y = "Lag Days", 
-            title = "Contemporary Comparison"
-      ) +
-      
-      # Custom Theme
-      theme_minimal(base_family = "sans") +
-      theme(
-            text = element_text(color = google_palette["text_gray"]),
-            plot.title = element_text(face = "bold", size = 16, margin = margin(b = 20)),
-            axis.title.x = element_text(face = "bold", margin = margin(t = 12)),
-            axis.title.y = element_text(face = "bold", margin = margin(r = 12)),
-            axis.text = element_text(color = google_palette["text_gray"]),
+
+
+# --- 4. Set up a function for the Facetted Forest Plot -----
+
+contemporary_plot <- function(df, title){
+      ggplot(df, aes(x = OR, y = Lag, color = Seasons)) +
+            # Null reference line
+            geom_vline(xintercept = 1, linetype = "dashed", color = google_palette["null_red"], linewidth = 0.8) +
             
-            # Facet Header (Strip) Customization
-            strip.text = element_text(face = "bold", size = 11, color = google_palette["text_gray"], margin = margin(t = 8, b = 8)),
-            strip.background = element_rect(fill = google_palette["strip_bg"], color = NA),
-            panel.spacing = unit(1.5, "lines"), # Add breathing room between grids
+            # Error bars (dodged)
+            geom_errorbarh(
+                  aes(xmin = lower, xmax = upper), 
+                  height = 0.4, 
+                  position = position_dodge(width = 0.6), 
+                  linewidth = 0.9
+            ) +
             
-            # Grid lines
-            panel.grid.major.x = element_line(color = google_palette["grid_gray"]),
-            panel.grid.minor.x = element_blank(),
-            panel.grid.major.y = element_line(color = google_palette["grid_gray"], linetype = "dotted"),
+            # Point estimates (dodged)
+            geom_point(
+                  position = position_dodge(width = 0.6), 
+                  size = 2
+            ) +
             
-            # Legend
-            legend.position = "bottom",
-            legend.title = element_blank(),
-            legend.text = element_text(size = 11, margin = margin(r = 15)),
+            # Apply colors
+            scale_color_manual(values = google_palette) +
             
-            # Margins
-            plot.margin = margin(20, 20, 20, 20)
+            # THE MAGIC: Facet into a 2x3 Grid
+            facet_wrap(~ Metric, ncol = 3) +
+            
+            # Labels
+            labs(
+                  x = "Odds Ratio (OR) and 95% CI",
+                  y = "Lag Days", 
+                  title = title
+            ) +
+            
+            # Custom Theme
+            theme_minimal(base_family = "sans") +
+            theme(
+                  text = element_text(color = google_palette["text_gray"]),
+                  plot.title = element_text(face = "bold", size = 16, margin = margin(b = 20)),
+                  axis.title.x = element_text(face = "bold", margin = margin(t = 12)),
+                  axis.title.y = element_text(face = "bold", margin = margin(r = 12)),
+                  axis.text = element_text(color = google_palette["text_gray"]),
+                  
+                  # Facet Header (Strip) Customization
+                  strip.text = element_text(face = "bold", size = 11, color = google_palette["text_gray"], margin = margin(t = 8, b = 8)),
+                  strip.background = element_rect(fill = google_palette["strip_bg"], color = NA),
+                  panel.spacing = unit(1.5, "lines"), # Add breathing room between grids
+                  
+                  # Grid lines
+                  panel.grid.major.x = element_line(color = google_palette["grid_gray"]),
+                  panel.grid.minor.x = element_blank(),
+                  panel.grid.major.y = element_line(color = google_palette["grid_gray"], linetype = "dotted"),
+                  
+                  # Legend
+                  legend.position = "bottom",
+                  legend.title = element_blank(),
+                  legend.text = element_text(size = 11, margin = margin(r = 15)),
+                  
+                  # Margins
+                  plot.margin = margin(20, 20, 20, 20)
+            )
+}
+
+# --- 5. Plot the main contemporary analysis forest plot -----
+forest_plot_grid_main_analysis <- contemporary_plot(df_clean, "Contemporary Comparison")
+
+# plot additional analysis forest plot
+print(forest_plot_grid_main_analysis)
+
+
+# --- 6. Plot the additional analysis forest plot -----
+df_additional <- df_additional %>%
+      # Parse the confidence intervals
+      mutate(
+            # Order the Lags from top to bottom
+            Lag = factor(Lag, levels = rev(c("Lag 1", "Lag 2", "Lag 3", "Lag 4", "Lag 5", "Lag 6"))),
+            # Order the Seasons for the legend
+            Seasons = factor(Seasons, levels = c("Overall Seasons", "Hot Seasons (May-Oct)", "Not hot (Nov-Apr)")),
+            # Order the 6 grid panels logically (Row 1: Absolute temps, Row 2: Variations)
+            Metric = factor(Metric, levels = c(
+                  "Diurnal Temperature Range", "Sudden Day-to-Day Increase", "Sudden Day-to-Day Decrease"
+            ))
       )
 
-# Display the dashboard
-print(forest_plot_grid_main_analysis)
+forestplot_additional_contemporary_analysis <- contemporary_plot(df_additional,
+                                                                 "Additional analyses: contemporary comparison")
+
+
 # ggsave("contemporary_forest_plot.svg", 
-       plot = forest_plot_grid_main_analysis, width = 8, height = 12, dpi = 300)
+#        plot = forest_plot_grid_main_analysis, width = 8, height = 12, dpi = 300)
