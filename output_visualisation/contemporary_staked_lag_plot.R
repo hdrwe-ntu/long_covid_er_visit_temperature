@@ -119,10 +119,7 @@ contemporary_plot <- function(df, title){
 }
 
 # --- 5. Plot the main contemporary analysis forest plot -----
-forest_plot_grid_main_analysis <- contemporary_plot(df_clean, "Contemporary Comparison")
-
-# plot additional analysis forest plot
-print(forest_plot_grid_main_analysis)
+forest_main_cont <- contemporary_plot(df_clean, "Contemporary Comparison")
 
 
 # --- 6. Plot the additional analysis forest plot -----
@@ -139,8 +136,8 @@ df_additional <- df_additional %>%
             ))
       )
 
-forestplot_additional_contemporary_analysis <- contemporary_plot(df_additional,
-                                                                 "Additional analyses: contemporary comparison")
+forest_add_cont <- contemporary_plot(df_additional,
+                                           "Additional Analyses: Contemporary Comparison")
 
 
 # ggsave("contemporary_forest_plot.svg", 
