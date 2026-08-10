@@ -1,5 +1,5 @@
 # ==============================================================================
-# Six-Grid Facetted Forest Plot Dashboard (Google Palette)
+# Facetted Forest Plot Dashboard
 # ==============================================================================
 
 # Load required libraries
@@ -28,7 +28,8 @@ df_decrease <- read.csv("output_visualisation/temperature_results/Main_Table2_Co
       mutate(Metric = "Sudden Day-to-Day Decrease")
 
 # Bind them all into one massive dataframe
-df_master <- bind_rows(df_mean, df_max, df_min, df_diurnal, df_increase, df_decrease)
+df_master <- bind_rows(df_mean, df_max, df_min)
+df_additional <- bind_rows(df_diurnal, df_increase, df_decrease)
 
 # --- 2. Data Cleaning & Factor Ordering ---
 df_clean <- df_master %>%
@@ -57,7 +58,7 @@ google_palette <- c(
 )
 
 # --- 4. Generate the Facetted Forest Plot ---
-forest_plot_6grid <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
+forest_plot_grid_main_analysis <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
       # Null reference line
       geom_vline(xintercept = 1, linetype = "dashed", color = google_palette["null_red"], linewidth = 0.8) +
       
@@ -79,7 +80,7 @@ forest_plot_6grid <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
       scale_color_manual(values = google_palette) +
       
       # THE MAGIC: Facet into a 2x3 Grid
-      facet_wrap(~ Metric, ncol = 2) +
+      facet_wrap(~ Metric, ncol = 3) +
       
       # Labels
       labs(
@@ -117,6 +118,6 @@ forest_plot_6grid <- ggplot(df_clean, aes(x = OR, y = Lag, color = Seasons)) +
       )
 
 # Display the dashboard
-print(forest_plot_6grid)
-ggsave("contemporary_forest_plot.svg", 
-       plot = forest_plot_6grid, width = 8, height = 12, dpi = 300)
+print(forest_plot_grid_main_analysis)
+# ggsave("contemporary_forest_plot.svg", 
+       plot = forest_plot_grid_main_analysis, width = 8, height = 12, dpi = 300)
