@@ -135,7 +135,5 @@ forest_main_his <- forestplot_his_fn(df_main_his, "Historical Comparison")
 forest_add_his <- forestplot_his_fn(df_add_his,"Additional Analyses: Historical Comparison")
 
 
-# Display the dashboard
-print(forest_plot_6grid_his)
-ggsave("historical_forest_plot.svg", 
-       plot = forest_plot_6grid_his, width = 8, height = 12, dpi = 300)
+# ggsave("historical_forest_plot.svg", 
+#        plot = forest_plot_6grid_his, width = 8, height = 12, dpi = 300)
